@@ -33,11 +33,11 @@ components:
 
 ## Overview
 
-Carta calda, DM Sans per titoli e testi e una fotografia ravvicinata che mostra camicia, metro e campioni di tessuto. La prenotazione è l’azione principale.
+Carta calda, DM Sans per titoli e testi e fotografie dei capi e dei tessuti in negozio. La prenotazione è l’azione principale.
 
 ## Layout
 
-La prima schermata accosta fotografia e invito a prenotare. Su mobile l’invito precede la fotografia. Una fascia prugna raccoglie i tre costi del servizio. L’anteprima illustrativa dei tessuti affianca il pulsante di prenotazione. Gli indirizzi si leggono accanto alle rispettive mappe.
+La prima schermata accosta fotografia e invito a prenotare. Su mobile l’invito precede la fotografia. Una fascia prugna raccoglie i tre costi del servizio. La foto dei tessuti affianca il pulsante di prenotazione. Ogni indirizzo ha un pulsante per aprire la mappa e un link per le indicazioni stradali.
 
 ## Components
 

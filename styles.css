@@ -25,6 +25,8 @@ body { margin: 0; background: var(--paper); color: var(--ink); font: 400 1rem/1.
 ::selection { color: var(--white); background: var(--wine); }
 :focus-visible { outline: 2px solid var(--wine); outline-offset: 5px; }
 a { color: inherit; text-decoration: none; }
+[hidden] { display: none !important; }
+.visually-hidden { position: absolute; width: 1px; height: 1px; padding: 0; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }
 h1, h2, h3, p, figure { margin: 0; }
 h1, h2, h3 { font-weight: 700; text-wrap: balance; }
 h1 { font-size: clamp(2.25rem, 4.65vw, 4.25rem); line-height: 1.09; letter-spacing: -.035em; }
@@ -46,7 +48,7 @@ svg { width: 1.25em; height: 1.25em; flex: none; fill: none; stroke: currentColo
 .site-header nav a:hover, .footer-links a:hover, .inline-link:hover { color: var(--wine); text-decoration: underline; text-underline-offset: .2em; }
 .payment { justify-self: end; }
 .actions { display: flex; flex-wrap: wrap; gap: .65rem; }
-.button { display: inline-flex; align-items: center; justify-content: center; gap: .55rem; min-height: 3.25rem; padding: .75rem 1.15rem; border: 1px solid transparent; font-size: .9rem; font-weight: 700; line-height: 1.2; text-align: center; transition: background-color 160ms ease, color 160ms ease, border-color 160ms ease; }
+.button { display: inline-flex; align-items: center; justify-content: center; gap: .55rem; min-height: 3.25rem; padding: .75rem 1.15rem; border: 1px solid transparent; background: transparent; cursor: pointer; font: 700 .9rem/1.2 var(--body); text-align: center; transition: background-color 160ms ease, color 160ms ease, border-color 160ms ease; }
 .button-primary { background: var(--wine); color: var(--white); }
 .button-primary:hover { background: var(--wine-dark); }
 .button-outline { border-color: var(--wine); color: var(--wine); }
@@ -64,7 +66,7 @@ svg { width: 1.25em; height: 1.25em; flex: none; fill: none; stroke: currentColo
 .hero-more { margin-top: 1.3rem; }
 .hero-more:hover svg { transform: translateY(3px); }
 .hero-photo { background: var(--sand); aspect-ratio: 1.13; overflow: hidden; }
-.hero-photo img { display: block; width: 100%; height: 100%; object-fit: cover; object-position: center 34%; }
+.hero-photo img { display: block; width: 100%; height: 100%; object-fit: cover; object-position: center 51%; }
 
 .service-band { background: var(--wine); color: var(--white); }
 .service-band ul { list-style: none; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); padding: .85rem 0; margin-block: 0; }
@@ -84,14 +86,15 @@ svg { width: 1.25em; height: 1.25em; flex: none; fill: none; stroke: currentColo
 .steps-list p { margin-top: .5rem; color: var(--muted); }
 .fabrics { display: grid; grid-template-columns: minmax(0, .82fr) minmax(0, 1.18fr); align-items: center; gap: clamp(1.5rem, 5.5vw, 5rem); border-top: 1px solid var(--line); }
 .fabrics-copy .actions { margin-top: 1.35rem; }
-.fabric-preview img { display: block; width: 100%; height: auto; background: var(--sand); }
+.fabric-preview img { display: block; width: 100%; height: auto; aspect-ratio: 4 / 3; object-fit: cover; object-position: center 45%; background: var(--sand); }
 .fabric-preview figcaption { margin-top: .45rem; color: var(--muted); font-size: .875rem; }
 .locations { background: var(--sand); }
 .location-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: clamp(1.5rem, 4vw, 3rem); margin-top: 2rem; }
-.location-grid iframe { display: block; width: 100%; height: clamp(14rem, 24vw, 20rem); border: 1px solid var(--line); background: var(--paper); }
-.location-grid h3 { margin-top: 1rem; }
+.location-grid article { border-top: 1px solid var(--line); padding-top: 1rem; }
+.store-map { margin-top: 1rem; }
+.store-map iframe { display: block; width: 100%; height: clamp(14rem, 24vw, 20rem); border: 1px solid var(--line); background: var(--paper); }
 .location-grid p { margin-top: .3rem; color: var(--muted); }
-.location-grid a { margin-top: .1rem; }
+.location-actions { margin-top: .7rem; align-items: center; gap: .45rem 1rem; }
 .booking { display: grid; grid-template-columns: 1fr auto; align-items: center; gap: 1.5rem 2.5rem; }
 .site-footer { border-top: 1px solid var(--line); }
 .footer-content { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 1.25rem; align-items: center; padding-block: 1.65rem; }
