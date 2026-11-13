@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 2,
+  "title": "Design System: Cotton Leaf",
+  "extensions": {
+    "breakpoints": [
+      { "name": "compact", "value": "46rem" },
+      { "name": "tablet", "value": "62rem" }
+    ],
+    "motion": [
+      { "name": "button-hover", "value": "160ms ease", "purpose": "Transizione di colore dei pulsanti." }
+    ]
+  },
+  "components": [
+    {
+      "name": "Prenotazione WhatsApp",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Azione principale di prenotazione.",
+      "html": "<button class=\"ds-booking\">Prenota su WhatsApp</button>",
+      "css": ".ds-booking { min-height: 3.25rem; padding: .75rem 1.15rem; border: 1px solid transparent; background: var(--wine, #672a38); color: var(--white, #fffaf1); font: 700 .9rem/1.2 'DM Sans', system-ui, sans-serif; transition: background-color 160ms ease; } .ds-booking:hover { background: var(--wine-dark, #50202b); } .ds-booking:focus-visible { outline: 2px solid var(--wine, #672a38); outline-offset: 5px; }"
+    }
+  ]
+}
