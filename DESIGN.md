@@ -12,11 +12,11 @@ colors:
   white: "#fffaf1"
 typography:
   display:
-    fontFamily: "Instrument Serif, Georgia, serif"
-    fontSize: "6rem"
-    fontWeight: 400
-    lineHeight: 1
-    letterSpacing: "-0.025em"
+    fontFamily: "DM Sans, system-ui, sans-serif"
+    fontSize: "4.25rem"
+    fontWeight: 700
+    lineHeight: 1.09
+    letterSpacing: "-0.035em"
   body:
     fontFamily: "DM Sans, system-ui, sans-serif"
     fontSize: "1rem"
@@ -33,11 +33,11 @@ components:
 
 ## Overview
 
-Carta calda, tipografia da editoria di moda e una fotografia ravvicinata che mostra camicia, metro e campioni di tessuto. La prenotazione è l’azione principale.
+Carta calda, DM Sans per titoli e testi e una fotografia ravvicinata che mostra camicia, metro e campioni di tessuto. La prenotazione è l’azione principale.
 
 ## Layout
 
-La prima schermata accosta fotografia e invito a prenotare. Su mobile l’invito precede la fotografia. Una fascia prugna raccoglie i tre costi del servizio. Gli indirizzi si leggono accanto alle rispettive mappe.
+La prima schermata accosta fotografia e invito a prenotare. Su mobile l’invito precede la fotografia. Una fascia prugna raccoglie i tre costi del servizio. L’anteprima illustrativa dei tessuti affianca il pulsante di prenotazione. Gli indirizzi si leggono accanto alle rispettive mappe.
 
 ## Components
 
