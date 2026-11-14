@@ -2,12 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://cottonleaf.it/</loc>
-    <lastmod>2026-11-13</lastmod>
+    <lastmod>2026-11-14</lastmod>
     <image:image><image:loc>https://cottonleaf.it/assets/cotton-leaf-negozio-765.webp</image:loc></image:image>
     <image:image><image:loc>https://cottonleaf.it/assets/cotton-leaf-tessuti-765.webp</image:loc></image:image>
+    <image:image><image:loc>https://cottonleaf.it/assets/galleria-ingresso-nomentana.webp</image:loc></image:image>
+    <image:image><image:loc>https://cottonleaf.it/assets/galleria-giacche-e-camicia.webp</image:loc></image:image>
+    <image:image><image:loc>https://cottonleaf.it/assets/galleria-cravatte-e-tessuti.webp</image:loc></image:image>
+    <image:image><image:loc>https://cottonleaf.it/assets/galleria-tessuti-colorati.webp</image:loc></image:image>
+    <image:image><image:loc>https://cottonleaf.it/assets/galleria-stoffe-azzurre.webp</image:loc></image:image>
+    <image:image><image:loc>https://cottonleaf.it/assets/galleria-tessuti-a-quadri.webp</image:loc></image:image>
   </url>
   <url>
     <loc>https://cottonleaf.it/changelog.html</loc>
-    <lastmod>2026-11-13</lastmod>
+    <lastmod>2026-11-14</lastmod>
   </url>
 </urlset>
