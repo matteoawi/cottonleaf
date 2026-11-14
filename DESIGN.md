@@ -37,7 +37,7 @@ Carta calda, DM Sans per titoli e testi e fotografie dei capi e dei tessuti in n
 
 ## Layout
 
-La prima schermata accosta una foto dei tessuti e l’invito a prenotare. Su mobile l’invito precede la fotografia e i due pulsanti restano affiancati. La fascia prugna raccoglie i tre costi del servizio. La sezione tessuti mostra un campionario illustrativo e la galleria scorrevole raccoglie le foto dei negozi. Ogni indirizzo ha un pulsante per aprire la mappa e un link alla scheda su Google Maps.
+La prima schermata accosta una foto dei tessuti e l’invito a prenotare, adattando l’altezza allo spazio visibile. Su mobile l’invito precede la fotografia e i due pulsanti restano affiancati. La fascia prugna raccoglie i costi del servizio. La galleria presenta foto grandi, frecce e un indicatore di scorrimento. Ogni indirizzo ha un pulsante per aprire la mappa e un link alla scheda su Google Maps.
 
 ## Components
 

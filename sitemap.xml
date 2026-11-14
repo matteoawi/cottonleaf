@@ -16,4 +16,20 @@
     <loc>https://cottonleaf.it/changelog.html</loc>
     <lastmod>2026-11-14</lastmod>
   </url>
+  <!-- localized-urls -->
+  <url><loc>https://cottonleaf.it/en/</loc><lastmod>2026-11-14</lastmod></url>
+  <url><loc>https://cottonleaf.it/en/changelog.html</loc><lastmod>2026-11-14</lastmod></url>
+  <url><loc>https://cottonleaf.it/ar/</loc><lastmod>2026-11-14</lastmod></url>
+  <url><loc>https://cottonleaf.it/ar/changelog.html</loc><lastmod>2026-11-14</lastmod></url>
+  <url><loc>https://cottonleaf.it/zh/</loc><lastmod>2026-11-14</lastmod></url>
+  <url><loc>https://cottonleaf.it/zh/changelog.html</loc><lastmod>2026-11-14</lastmod></url>
+  <url><loc>https://cottonleaf.it/fr/</loc><lastmod>2026-11-14</lastmod></url>
+  <url><loc>https://cottonleaf.it/fr/changelog.html</loc><lastmod>2026-11-14</lastmod></url>
+  <url><loc>https://cottonleaf.it/es/</loc><lastmod>2026-11-14</lastmod></url>
+  <url><loc>https://cottonleaf.it/es/changelog.html</loc><lastmod>2026-11-14</lastmod></url>
+  <url><loc>https://cottonleaf.it/de/</loc><lastmod>2026-11-14</lastmod></url>
+  <url><loc>https://cottonleaf.it/de/changelog.html</loc><lastmod>2026-11-14</lastmod></url>
+  <url><loc>https://cottonleaf.it/bn/</loc><lastmod>2026-11-14</lastmod></url>
+  <url><loc>https://cottonleaf.it/bn/changelog.html</loc><lastmod>2026-11-14</lastmod></url>
+  <!-- end-localized-urls -->
 </urlset>

@@ -6,7 +6,7 @@ for (const button of document.querySelectorAll('.map-toggle')) {
     const open = panel.hidden;
     panel.hidden = !open;
     button.setAttribute('aria-expanded', String(open));
-    label.textContent = open ? 'Nascondi mappa' : 'Mostra mappa';
+    label.textContent = open ? button.dataset.closeLabel : button.dataset.openLabel;
 
     if (open && !panel.firstElementChild) {
       const map = document.createElement('iframe');

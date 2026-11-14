@@ -4,16 +4,27 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#f6f2e9">
-  <meta name="description" content="Camicie su misura per uomo e donna a Roma da 55 €. Prenota una visita gratuita a domicilio per prendere le misure e scegliere i tessuti.">
+  <meta name="description" content="Camicie su misura per uomo e donna a Roma da 55 €. Presa misure e scelta tessuti in negozio o con visita gratuita a casa, in ufficio o in hotel.">
   <title>Camicie su misura a domicilio a Roma | Cotton Leaf</title>
   <link rel="canonical" href="https://cottonleaf.it/">
+  <!-- alternate-languages -->
+  <link rel="alternate" hreflang="it" href="https://cottonleaf.it/">
+  <link rel="alternate" hreflang="en" href="https://cottonleaf.it/en/">
+  <link rel="alternate" hreflang="ar" href="https://cottonleaf.it/ar/">
+  <link rel="alternate" hreflang="zh-Hans" href="https://cottonleaf.it/zh/">
+  <link rel="alternate" hreflang="fr" href="https://cottonleaf.it/fr/">
+  <link rel="alternate" hreflang="es" href="https://cottonleaf.it/es/">
+  <link rel="alternate" hreflang="de" href="https://cottonleaf.it/de/">
+  <link rel="alternate" hreflang="bn" href="https://cottonleaf.it/bn/">
+  <link rel="alternate" hreflang="x-default" href="https://cottonleaf.it/">
+  <!-- end-alternate-languages -->
   <meta name="robots" content="max-image-preview:large">
   <meta property="og:type" content="website">
   <meta property="og:locale" content="it_IT">
   <meta property="og:site_name" content="Cotton Leaf">
   <meta property="og:url" content="https://cottonleaf.it/">
   <meta property="og:title" content="Camicie su misura a domicilio a Roma | Cotton Leaf">
-  <meta property="og:description" content="Visita gratuita a domicilio a Roma per prendere le misure e scegliere il tessuto della tua camicia. Prenota con Cotton Leaf su WhatsApp o al telefono.">
+  <meta property="og:description" content="Camicie su misura per uomo e donna a Roma da 55 €. Presa misure e scelta tessuti in negozio o con visita gratuita a casa, in ufficio o in hotel.">
   <meta property="og:image" content="https://cottonleaf.it/assets/cotton-leaf-roma.jpg">
   <meta property="og:image:width" content="764">
   <meta property="og:image:height" content="400">
@@ -24,7 +35,7 @@
     imagesrcset="assets/cotton-leaf-tessuti-360.webp 360w, assets/cotton-leaf-tessuti-540.webp 540w, assets/cotton-leaf-tessuti-765.webp 765w"
     imagesizes="(max-width: 736px) calc(100vw - max(32px, 9vw)), (max-width: 1424px) 44vw, 614px">
   <link rel="preload" href="assets/dm-sans-latin.woff2" as="font" type="font/woff2" crossorigin>
-  <link rel="stylesheet" href="styles.css?v=1.3.0">
+  <link rel="stylesheet" href="styles.css?v=1.4.0">
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -78,7 +89,7 @@
         "@id": "https://cottonleaf.it/#appuntamento",
         "name": "Camicie su misura con visita a domicilio a Roma",
         "serviceType": "Presa delle misure e scelta dei tessuti a domicilio",
-        "description": "Camicie su misura per uomo e donna a partire da 55 €. Visita gratuita a domicilio per prendere le misure e consultare il catalogo dei tessuti. Ritiro gratuito in negozio o consegna a domicilio a 10 €.",
+        "description": "Camicie su misura per uomo e donna a partire da 55 €. Presa delle misure e scelta dei tessuti in negozio o con visita gratuita a casa, in ufficio o in hotel a Roma. Ritiro gratuito in negozio o consegna a domicilio a 10 €.",
         "url": "https://cottonleaf.it/#appuntamento",
         "provider": { "@id": "https://cottonleaf.it/#cotton-leaf" },
         "areaServed": { "@type": "City", "name": "Roma" },
@@ -87,8 +98,9 @@
     ]
   }
   </script>
-  <script src="maps.js?v=1.2.0" defer></script>
-  <script src="gallery.js?v=1.3.0" defer></script>
+  <script src="language.js?v=1.4.0" defer></script>
+  <script src="maps.js?v=1.4.0" defer></script>
+  <script src="home.js?v=1.4.0" defer></script>
 </head>
 <body>
   <a class="skip-link" href="#contenuto">Vai al contenuto</a>
@@ -106,17 +118,34 @@
       <a href="#tessuti">Tessuti</a>
       <a href="#negozi">Negozi</a>
     </nav>
-    <a class="button button-outline payment" href="https://mypos.com/@cottonleaf">Paga online <svg aria-hidden="true"><use href="#icon-external"/></svg></a>
+    <div class="header-actions">
+      <details class="language-menu">
+        <summary><span class="visually-hidden">Lingua del sito: </span>IT</summary>
+        <!-- language-options -->
+        <div class="language-options">
+          <a href="./?lang=it" lang="it" hreflang="it" dir="ltr" aria-current="page">Italiano</a>
+          <a href="./en/?lang=en" lang="en" hreflang="en" dir="ltr">English</a>
+          <a href="./ar/?lang=ar" lang="ar" hreflang="ar" dir="rtl">العربية</a>
+          <a href="./zh/?lang=zh" lang="zh-Hans" hreflang="zh-Hans" dir="ltr">简体中文</a>
+          <a href="./fr/?lang=fr" lang="fr" hreflang="fr" dir="ltr">Français</a>
+          <a href="./es/?lang=es" lang="es" hreflang="es" dir="ltr">Español</a>
+          <a href="./de/?lang=de" lang="de" hreflang="de" dir="ltr">Deutsch</a>
+          <a href="./bn/?lang=bn" lang="bn" hreflang="bn" dir="ltr">বাংলা</a>
+        </div>
+        <!-- end-language-options -->
+      </details>
+      <a class="button button-outline payment" href="https://mypos.com/@cottonleaf"><span>Paga online</span> <svg aria-hidden="true"><use href="#icon-external"/></svg></a>
+    </div>
   </header>
 
   <main id="contenuto">
     <section class="hero" aria-labelledby="titolo">
       <div class="hero-copy">
         <h1 id="titolo">Camicie su misura <span>a domicilio a Roma</span></h1>
-        <p><strong>A partire da 55&nbsp;€.</strong> Camicie per uomo e donna, con presa delle misure e scelta dei tessuti a casa tua.</p>
+        <p><strong>A partire da 55&nbsp;€.</strong> Camicie per uomo e donna. Misure e tessuti in negozio, a casa, in ufficio o in hotel.</p>
         <div class="actions hero-actions">
-          <a class="button button-primary" href="https://wa.me/393452357524?text=Ciao%20Cotton%20Leaf%2C%20vorrei%20prenotare%20un%20appuntamento%20gratuito%20a%20domicilio%20a%20Roma%20per%20una%20camicia%20su%20misura."><svg aria-hidden="true"><use href="#icon-whatsapp"/></svg> Prenota su WhatsApp</a>
-          <a class="button button-outline" href="tel:+393452357524"><svg aria-hidden="true"><use href="#icon-phone"/></svg> Chiama</a>
+          <a class="button button-primary" href="https://wa.me/393452357524?text=Ciao%20Cotton%20Leaf%2C%20vorrei%20prenotare%20una%20visita%20per%20una%20camicia%20su%20misura%20a%20Roma."><svg aria-hidden="true"><use href="#icon-whatsapp"/></svg> Prenota su WhatsApp</a>
+          <a class="button button-outline" href="tel:+393452357524"><svg aria-hidden="true"><use href="#icon-phone"/></svg> <span>Chiama</span></a>
         </div>
       </div>
       <figure class="hero-photo">
@@ -137,11 +166,11 @@
     <section id="appuntamento" class="section wrap steps" aria-labelledby="titolo-appuntamento">
       <div class="section-intro">
         <h2 id="titolo-appuntamento">La tua camicia, <em>passo dopo passo.</em></h2>
-        <p>Il primo appuntamento è a casa tua. Da lì scegli come ricevere la camicia finita.</p>
+        <p>A Roma puoi venire in negozio oppure prenotare una visita gratuita a casa, in ufficio o in hotel.</p>
       </div>
       <ol class="steps-list">
-        <li><div><h3>Concordiamo l’appuntamento</h3><p>Scrivici su WhatsApp o chiamaci al <a class="inline-link" href="tel:+393452357524">+39&nbsp;345&nbsp;235&nbsp;7524</a> per fissare una visita gratuita a domicilio.</p></div></li>
-        <li><div><h3>Prendiamo le misure, scegli il tessuto</h3><p>Portiamo il catalogo a casa tua. Puoi sfogliare i campioni e scegliere il tessuto della camicia mentre prendiamo le tue misure.</p></div></li>
+        <li><div><h3>Concordiamo l’appuntamento</h3><p>Scrivici su WhatsApp o chiamaci al <a class="inline-link" dir="ltr" href="tel:+393452357524">+39&nbsp;345&nbsp;235&nbsp;7524</a> per scegliere dove incontrarci.</p></div></li>
+        <li><div><h3>Prendiamo le misure, scegli il tessuto</h3><p>Ti mostriamo il campionario e prendiamo le misure in negozio o nel luogo concordato.</p></div></li>
         <li><div><h3>Ritira la camicia o ricevila a casa</h3><p>Quando è pronta, puoi ritirarla gratuitamente in negozio o fartela consegnare a domicilio per 10 €.</p></div></li>
       </ol>
     </section>
@@ -149,9 +178,9 @@
     <section id="tessuti" class="section wrap fabrics" aria-labelledby="titolo-tessuti">
       <div class="section-intro fabrics-copy">
         <h2 id="titolo-tessuti">Tessuti per camicie su misura</h2>
-        <p>Durante la visita gratuita a domicilio a Roma portiamo il campionario. Puoi sfogliarlo, toccare i tessuti e confrontare dal vivo tinte unite, righe e quadretti.</p>
+        <p>Puoi sfogliare il campionario in negozio o durante la visita. Tocca i tessuti e confronta dal vivo tinte unite, righe e quadretti.</p>
         <div class="actions">
-          <a class="button button-primary" href="https://wa.me/393452357524?text=Ciao%20Cotton%20Leaf%2C%20vorrei%20prenotare%20una%20visita%20gratuita%20a%20domicilio%20a%20Roma%20per%20vedere%20i%20tessuti%20dal%20vivo."><svg aria-hidden="true"><use href="#icon-whatsapp"/></svg> Prenota su WhatsApp</a>
+          <a class="button button-primary" href="https://wa.me/393452357524?text=Ciao%20Cotton%20Leaf%2C%20vorrei%20vedere%20i%20tessuti%20per%20una%20camicia%20su%20misura%20a%20Roma."><svg aria-hidden="true"><use href="#icon-whatsapp"/></svg> Prenota su WhatsApp</a>
         </div>
       </div>
       <figure class="fabric-preview">
@@ -181,21 +210,22 @@
           <li><img src="assets/galleria-tessuti-a-quadri.webp" alt="Tessuti a quadri e a righe disposti in tre pile" width="640" height="480" loading="lazy" decoding="async"></li>
         </ul>
       </section>
+      <div class="gallery-progress" aria-hidden="true" hidden><span></span></div>
     </section>
 
     <section id="negozi" class="locations" aria-labelledby="titolo-negozi">
       <div class="section wrap">
         <div class="section-intro">
           <h2 id="titolo-negozi">I nostri negozi <em>a Roma.</em></h2>
-          <p>Passa a trovarci o scegli il punto vendita più comodo per il ritiro gratuito.</p>
+          <p>In entrambi i negozi puoi farti prendere le misure, scegliere il tessuto e ritirare gratuitamente la camicia.</p>
         </div>
         <div class="location-grid">
           <article id="negozio-nomentana">
             <h3>Via Nomentana, 153</h3>
             <p>00161 Roma</p>
             <div class="actions location-actions">
-              <button class="button button-outline map-toggle" type="button" aria-controls="mappa-nomentana" aria-expanded="false" hidden>Mostra mappa<span class="visually-hidden"> di Via Nomentana</span></button>
-              <a class="text-link" href="https://www.google.com/maps/search/?api=1&amp;query=Cotton%20Leaf%2C%20Via%20Nomentana%20153%2C%20Roma">Indicazioni<span class="visually-hidden"> · Scheda del negozio in Via Nomentana su Google Maps</span> <svg aria-hidden="true"><use href="#icon-external"/></svg></a>
+              <button class="button button-outline map-toggle" type="button" aria-controls="mappa-nomentana" aria-expanded="false" hidden data-open-label="Mostra mappa" data-close-label="Nascondi mappa">Mostra mappa<span class="visually-hidden"> di Via Nomentana</span></button>
+              <a class="text-link" href="https://www.google.com/maps/search/?api=1&amp;query=Cotton%20Leaf%2C%20Via%20Nomentana%20153%2C%20Roma">Indicazioni<span class="visually-hidden"> · Scheda del negozio su Google Maps (Via Nomentana)</span> <svg aria-hidden="true"><use href="#icon-external"/></svg></a>
             </div>
             <div class="store-map" id="mappa-nomentana" data-src="https://www.google.com/maps/embed?origin=mfe&amp;pb=!1m3!2m1!1sCotton%20Leaf%2C%20Via%20Nomentana%20153%2C%20Roma!6i16" data-title="Mappa di Cotton Leaf in Via Nomentana 153, Roma" hidden></div>
           </article>
@@ -203,8 +233,8 @@
             <h3>Via Venti Settembre, 58D</h3>
             <p>00187 Roma</p>
             <div class="actions location-actions">
-              <button class="button button-outline map-toggle" type="button" aria-controls="mappa-venti-settembre" aria-expanded="false" hidden>Mostra mappa<span class="visually-hidden"> di Via Venti Settembre</span></button>
-              <a class="text-link" href="https://www.google.com/maps/search/?api=1&amp;query=Cotton%20Leaf%2C%20Via%20Venti%20Settembre%2058D%2C%20Roma">Indicazioni<span class="visually-hidden"> · Scheda del negozio in Via Venti Settembre su Google Maps</span> <svg aria-hidden="true"><use href="#icon-external"/></svg></a>
+              <button class="button button-outline map-toggle" type="button" aria-controls="mappa-venti-settembre" aria-expanded="false" hidden data-open-label="Mostra mappa" data-close-label="Nascondi mappa">Mostra mappa<span class="visually-hidden"> di Via Venti Settembre</span></button>
+              <a class="text-link" href="https://www.google.com/maps/search/?api=1&amp;query=Cotton%20Leaf%2C%20Via%20Venti%20Settembre%2058D%2C%20Roma">Indicazioni<span class="visually-hidden"> · Scheda del negozio su Google Maps (Via Venti Settembre)</span> <svg aria-hidden="true"><use href="#icon-external"/></svg></a>
             </div>
             <div class="store-map" id="mappa-venti-settembre" data-src="https://www.google.com/maps/embed?origin=mfe&amp;pb=!1m3!2m1!1sCotton%20Leaf%2C%20Via%20Venti%20Settembre%2058D%2C%20Roma!6i16" data-title="Mappa di Cotton Leaf in Via Venti Settembre 58D, Roma" hidden></div>
           </article>
@@ -215,9 +245,16 @@
     <section class="section wrap booking" aria-labelledby="titolo-prenota">
       <h2 id="titolo-prenota">Fissiamo un appuntamento?</h2>
       <div class="actions">
-        <a class="button button-primary" href="https://wa.me/393452357524?text=Ciao%20Cotton%20Leaf%2C%20vorrei%20prenotare%20un%20appuntamento%20gratuito%20a%20domicilio%20a%20Roma%20per%20una%20camicia%20su%20misura."><svg aria-hidden="true"><use href="#icon-whatsapp"/></svg> Prenota su WhatsApp</a>
+        <a class="button button-primary" href="https://wa.me/393452357524?text=Ciao%20Cotton%20Leaf%2C%20vorrei%20prenotare%20una%20visita%20per%20una%20camicia%20su%20misura%20a%20Roma."><svg aria-hidden="true"><use href="#icon-whatsapp"/></svg> Prenota su WhatsApp</a>
         <a class="button button-outline" href="tel:+393452357524"><svg aria-hidden="true"><use href="#icon-phone"/></svg> +39&nbsp;345&nbsp;235&nbsp;7524</a>
       </div>
+    </section>
+    <section id="recensioni" class="review-card wrap" aria-labelledby="titolo-recensioni">
+      <div>
+        <h2 id="titolo-recensioni">Com’è andata la tua visita?</h2>
+        <p>Racconta la tua esperienza da Cotton Leaf in Via Nomentana, 153 a Roma.</p>
+      </div>
+      <a class="button button-outline" href="https://search.google.com/local/writereview?placeid=ChIJ3ViF6AxhLxMRtQY5ctIsKvg">Lascia una recensione su Google <svg aria-hidden="true"><use href="#icon-external"/></svg></a>
     </section>
   </main>
 
@@ -226,7 +263,7 @@
       <a class="wordmark" href="./">Cotton Leaf<span>Roma</span></a>
       <div class="footer-links">
         <a href="https://mypos.com/@cottonleaf">Paga online <svg aria-hidden="true"><use href="#icon-external"/></svg></a>
-        <a href="changelog.html">Novità del sito · v1.3.0</a>
+        <a href="changelog.html">Novità del sito · v1.4.0</a>
       </div>
     </div>
   </footer>

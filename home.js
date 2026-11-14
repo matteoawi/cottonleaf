@@ -1,13 +1,24 @@
+const header = document.querySelector('.site-header');
+const hero = document.querySelector('.hero');
+new ResizeObserver(() => {
+  hero.style.setProperty('--site-header-height', `${header.getBoundingClientRect().height}px`);
+}).observe(header);
+
 const track = document.querySelector('.gallery-track');
 const controls = document.querySelector('.gallery-controls');
 const previous = controls.querySelector('.gallery-prev');
 const next = controls.querySelector('.gallery-next');
+const progress = document.querySelector('.gallery-progress');
 
 function updateGalleryControls() {
   const overflow = track.scrollWidth - track.clientWidth;
   controls.hidden = overflow <= 1;
-  previous.disabled = track.scrollLeft <= 1;
-  next.disabled = track.scrollLeft >= overflow - 1;
+  progress.hidden = controls.hidden;
+  const offset = Math.abs(track.scrollLeft);
+  previous.disabled = offset <= 1;
+  next.disabled = offset >= overflow - 1;
+  progress.style.setProperty('--gallery-offset', `${100 * offset / track.scrollWidth}%`);
+  progress.style.setProperty('--gallery-visible', track.clientWidth / track.scrollWidth);
 }
 
 function scrollByPhoto(direction) {
