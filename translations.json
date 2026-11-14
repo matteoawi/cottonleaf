@@ -1,5 +1,7 @@
 {
   "it": {
+    "seoRelease": "Domande frequenti in otto lingue, dati strutturati più completi e collegamenti Maps precisi per i due negozi.",
+    "faq": ["Domande frequenti","Quanto costa una camicia su misura a Roma?","Le camicie su misura per uomo e donna partono da 55 €. La visita a domicilio a Roma è gratuita.","Dove posso farmi prendere le misure?","Puoi andare in uno dei nostri negozi a Roma, in Via Nomentana 153 o in Via Venti Settembre 58D. Puoi anche prenotare una visita gratuita a casa, in ufficio o in hotel a Roma.","Posso vedere i tessuti prima di scegliere?","Sì. Puoi sfogliare il campionario e toccare i tessuti in negozio o durante la visita. Trovi tinte unite, righe e quadretti.","Come prenoto un appuntamento?","Scrivici su WhatsApp o chiamaci al {phone} per concordare il luogo dell’appuntamento.","Come ricevo la camicia quando è pronta?","Puoi ritirarla gratuitamente in negozio oppure richiedere la consegna a domicilio per 10 €."],
     "name": "Italiano",
     "lang": "it",
     "dir": "ltr",
@@ -48,7 +50,7 @@
       "reviewText": "Racconta la tua esperienza da Cotton Leaf in Via Nomentana, 153 a Roma.",
       "review": "Lascia una recensione su Google",
       "news": "Novità del sito",
-      "title": "Camicie su misura a domicilio a Roma | Cotton Leaf",
+      "title": "Camicie su misura a Roma | Cotton Leaf",
       "description": "Camicie su misura per uomo e donna a Roma da 55 €. Presa misure e scelta tessuti in negozio o con visita gratuita a casa, in ufficio o in hotel.",
       "message": "Ciao Cotton Leaf, vorrei prenotare una visita per una camicia su misura a Roma.",
       "fabricMessage": "Ciao Cotton Leaf, vorrei vedere i tessuti per una camicia su misura a Roma.",
@@ -69,6 +71,8 @@
     }
   },
   "en": {
+    "seoRelease": "Frequently asked questions in eight languages, more complete structured data and precise Maps links for both stores.",
+    "faq": ["Frequently asked questions","How much does a bespoke shirt cost in Rome?","Bespoke shirts for men and women start at €55. Visits to your address in Rome are free.","Where can I get measured?","Visit either of our Rome stores, at Via Nomentana 153 or Via Venti Settembre 58D. You can also book a free visit to your home, office or hotel in Rome.","Can I see the fabrics before choosing?","Yes. Browse the swatch book and feel the fabrics in store or during your visit. There are solids, stripes and checks.","How do I book an appointment?","Message us on WhatsApp or call {phone} to arrange where to meet.","How do I get my shirt when it’s ready?","Collect it in store for free or have it delivered to your address for €10."],
     "name": "English",
     "lang": "en",
     "dir": "ltr",
@@ -138,6 +142,8 @@
     }
   },
   "ar": {
+    "seoRelease": "أسئلة شائعة بثماني لغات، وبيانات منظمة أوضح، وروابط خرائط دقيقة للمتجرين.",
+    "faq": ["الأسئلة الشائعة","كم سعر القميص حسب المقاس في روما؟","تبدأ أسعار القمصان حسب المقاس للرجال والنساء من 55 يورو. الزيارة إلى عنوانك في روما مجانية.","أين يمكن أخذ مقاساتي؟","يمكنك زيارة أحد متجرينا في روما، في Via Nomentana 153 أو Via Venti Settembre 58D. كما يمكنك حجز زيارة مجانية في منزلك أو مكتبك أو فندقك في روما.","هل يمكنني رؤية الأقمشة قبل الاختيار؟","نعم. يمكنك تصفح كتالوج العينات ولمس الأقمشة في المتجر أو أثناء الزيارة. تتوفر أقمشة سادة ومخططة ومربعة.","كيف أحجز موعدًا؟","راسلنا عبر واتساب أو اتصل على {phone} للاتفاق على مكان اللقاء.","كيف أستلم قميصي عندما يصبح جاهزًا؟","يمكنك استلامه مجانًا من المتجر أو طلب توصيله إلى عنوانك مقابل 10 يورو."],
     "name": "العربية",
     "lang": "ar",
     "dir": "rtl",
@@ -207,6 +213,8 @@
     }
   },
   "zh": {
+    "seoRelease": "新增八种语言的常见问题，完善结构化数据，并为两家门店添加准确的地图链接。",
+    "faq": ["常见问题","在罗马定制衬衫多少钱？","男女定制衬衫均为 55 欧元起。在罗马预约上门量体服务免费。","在哪里可以量体？","您可以前往罗马的两家门店之一，地址为 Via Nomentana 153 或 Via Venti Settembre 58D。也可预约免费到罗马的家中、办公室或酒店量体。","选购之前可以看看面料吗？","可以。到店或上门服务时，您都可以翻阅样本册，亲手感受面料，比较纯色、条纹和格纹。","如何预约？","请通过 WhatsApp 联系我们，或致电 {phone} 商定见面地点。","衬衫做好后怎么取？","您可以免费到店自取，也可以支付 10 欧元送货上门。"],
     "name": "简体中文",
     "lang": "zh-Hans",
     "dir": "ltr",
@@ -276,6 +284,8 @@
     }
   },
   "fr": {
+    "seoRelease": "Questions fréquentes en huit langues, données structurées enrichies et liens Maps précis pour les deux boutiques.",
+    "faq": ["Questions fréquentes","Combien coûte une chemise sur mesure à Rome ?","Les chemises sur mesure pour homme et femme sont proposées à partir de 55 €. La visite à votre adresse à Rome est gratuite.","Où puis-je faire prendre mes mesures ?","Rendez-vous dans l’une de nos deux boutiques à Rome, Via Nomentana 153 ou Via Venti Settembre 58D. Vous pouvez aussi réserver une visite gratuite à domicile, au bureau ou à l’hôtel à Rome.","Puis-je voir les tissus avant de choisir ?","Oui. Feuilletez le cahier d’échantillons et touchez les tissus en boutique ou lors de la visite. Vous y trouverez des unis, des rayures et des carreaux.","Comment prendre rendez-vous ?","Écrivez-nous sur WhatsApp ou appelez le {phone} pour convenir du lieu.","Comment récupérer ma chemise quand elle est prête ?","Retirez-la gratuitement en boutique ou faites-la livrer à votre adresse pour 10 €."],
     "name": "Français",
     "lang": "fr",
     "dir": "ltr",
@@ -345,6 +355,8 @@
     }
   },
   "es": {
+    "seoRelease": "Preguntas frecuentes en ocho idiomas, datos estructurados más completos y enlaces precisos de Maps para las dos tiendas.",
+    "faq": ["Preguntas frecuentes","¿Cuánto cuesta una camisa a medida en Roma?","Las camisas a medida para hombre y mujer cuestan desde 55 €. La visita a tu dirección en Roma es gratuita.","¿Dónde pueden tomarme las medidas?","Puedes ir a cualquiera de nuestras tiendas en Roma, en Via Nomentana 153 o Via Venti Settembre 58D. También puedes reservar una visita gratuita en tu casa, oficina u hotel en Roma.","¿Puedo ver los tejidos antes de elegir?","Sí. Puedes hojear el muestrario y tocar los tejidos en tienda o durante la visita. Hay tejidos lisos, de rayas y de cuadros.","¿Cómo reservo una cita?","Escríbenos por WhatsApp o llama al {phone} para acordar el lugar.","¿Cómo recojo mi camisa cuando esté lista?","Puedes recogerla gratis en tienda o pedir la entrega a domicilio por 10 €."],
     "name": "Español",
     "lang": "es",
     "dir": "ltr",
@@ -414,6 +426,8 @@
     }
   },
   "de": {
+    "seoRelease": "Häufige Fragen in acht Sprachen, vollständigere strukturierte Daten und genaue Maps-Links für beide Geschäfte.",
+    "faq": ["Häufige Fragen","Was kostet ein Maßhemd in Rom?","Maßhemden für Damen und Herren kosten ab 55 €. Der Besuch an Ihrer Adresse in Rom ist kostenlos.","Wo kann ich Maß nehmen lassen?","Besuchen Sie eines unserer Geschäfte in Rom, in der Via Nomentana 153 oder der Via Venti Settembre 58D. Sie können auch einen kostenlosen Termin bei Ihnen zu Hause, im Büro oder im Hotel in Rom buchen.","Kann ich die Stoffe vor der Auswahl sehen?","Ja. Im Geschäft oder beim Termin können Sie durch das Musterbuch blättern und die Stoffe anfassen. Es gibt einfarbige, gestreifte und karierte Stoffe.","Wie vereinbare ich einen Termin?","Schreiben Sie uns per WhatsApp oder rufen Sie {phone} an, um den Treffpunkt zu vereinbaren.","Wie erhalte ich mein fertiges Hemd?","Sie können Ihr Hemd kostenlos im Geschäft abholen oder für 10 € liefern lassen."],
     "name": "Deutsch",
     "lang": "de",
     "dir": "ltr",
@@ -483,6 +497,8 @@
     }
   },
   "bn": {
+    "seoRelease": "আট ভাষায় সাধারণ প্রশ্ন, আরও সম্পূর্ণ কাঠামোবদ্ধ তথ্য এবং দুই দোকানের সঠিক Maps লিংক।",
+    "faq": ["সাধারণ প্রশ্ন","রোমে মাপমতো শার্টের দাম কত?","নারী ও পুরুষের মাপমতো শার্টের দাম ৫৫ ইউরো থেকে শুরু। রোমে আপনার ঠিকানায় মাপ নেওয়ার সাক্ষাৎ বিনামূল্যে।","কোথায় মাপ দিতে পারি?","রোমের Via Nomentana 153 বা Via Venti Settembre 58D ঠিকানার যেকোনো দোকানে আসুন। রোমে আপনার বাড়ি, অফিস বা হোটেলে বিনামূল্যে সাক্ষাতের সময়ও ঠিক করতে পারেন।","বেছে নেওয়ার আগে কাপড় দেখতে পারব কি?","হ্যাঁ। দোকানে বা সাক্ষাতের সময় নমুনার বই দেখতে ও কাপড় ছুঁয়ে দেখতে পারবেন। একরঙা, ডোরাকাটা ও চেকের কাপড় রয়েছে।","কীভাবে সাক্ষাতের সময় ঠিক করব?","কোথায় দেখা হবে তা ঠিক করতে WhatsApp-এ লিখুন বা {phone} নম্বরে ফোন করুন।","শার্ট তৈরি হলে কীভাবে পাব?","দোকান থেকে বিনামূল্যে সংগ্রহ করতে পারেন অথবা ১০ ইউরো দিয়ে আপনার ঠিকানায় ডেলিভারি নিতে পারেন।"],
     "name": "বাংলা",
     "lang": "bn",
     "dir": "ltr",

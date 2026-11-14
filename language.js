@@ -15,7 +15,15 @@ function rememberLanguage(code) {
 }
 
 for (const link of languageLinks) {
-  link.addEventListener('click', () => rememberLanguage(getLanguageCode(link.hreflang)));
+  link.addEventListener('click', (event) => {
+    const code = getLanguageCode(link.hreflang);
+    rememberLanguage(code);
+    if (code === currentLanguage && !event.metaKey && !event.ctrlKey && !event.shiftKey && !event.altKey) {
+      event.preventDefault();
+      languageMenu.open = false;
+      languageMenu.querySelector('summary').focus();
+    }
+  });
 }
 
 languageMenu.addEventListener('keydown', (event) => {

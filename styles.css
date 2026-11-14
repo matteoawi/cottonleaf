@@ -129,6 +129,11 @@ svg { width: 1.25em; height: 1.25em; flex: none; fill: none; stroke: currentColo
 .location-grid p { margin-top: .3rem; color: var(--muted); }
 .location-actions { margin-top: .7rem; align-items: center; gap: .45rem 1rem; }
 .booking { display: grid; grid-template-columns: 1fr auto; align-items: center; gap: 1.5rem 2.5rem; }
+.faq { padding-block: clamp(2.5rem, 6vw, 5rem); border-bottom: 1px solid var(--line); }
+.faq h2 { margin-bottom: 1rem; }
+.faq-item { border-top: 1px solid var(--line); padding-block: 1.1rem; }
+.faq-item:last-child { padding-bottom: 0; }
+.faq-item p { max-width: 67ch; margin-top: .35rem; color: var(--muted); }
 .review-card { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 1rem 2rem; padding: clamp(1.15rem, 3vw, 2rem); margin-bottom: clamp(2rem, 5vw, 4rem); border-radius: .75rem; background: var(--sand); }
 .review-card h2 { font-size: clamp(1.3rem, 2.2vw, 1.65rem); }
 .review-card p { margin-top: .35rem; color: var(--muted); }

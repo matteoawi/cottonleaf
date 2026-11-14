@@ -12,6 +12,7 @@ const releaseDate = changelog.match(/<time datetime="(\d{4}-\d{2}-\d{2})">/)[1];
 const localizedPath = (code, page) => (code === 'it' ? '' : code + '/') + page;
 const escapeAttribute = (text) => text.replaceAll('&', '&amp;').replaceAll('"', '&quot;');
 const phone = '<a class="inline-link" dir="ltr" href="tel:+393452357524">+39&nbsp;345&nbsp;235&nbsp;7524</a>';
+const withVersion = (html) => html.replace(/((?:styles\.css|home\.js|maps\.js|language\.js)\?v=|changelog\.html">[^<]+ · v)\d+\.\d+\.\d+/g, (_, prefix) => prefix + version);
 const setText = (html, before, after) => {
   if (!html.includes(before)) throw new Error('Missing translation source: ' + before);
   return html.replaceAll(before, () => after);
@@ -23,7 +24,7 @@ function addLanguages(html, code, page) {
   const pathToRoot = code === 'it' ? './' : '../';
   const links = Object.entries(catalog).map(([id, item]) => {
     const current = id === code ? ' aria-current="page"' : '';
-    return `<a href="${pathToRoot}${localizedPath(id, page)}?lang=${id}" lang="${item.lang}" hreflang="${item.lang}" dir="${item.dir}"${current}>${item.name}</a>`;
+    return `<a href="${pathToRoot}${localizedPath(id, page)}" lang="${item.lang}" hreflang="${item.lang}" dir="${item.dir}"${current}>${item.name}</a>`;
   });
   const alternates = [...Object.entries(catalog).map(([id, item]) => [item.lang, localizedPath(id, page)]), ['x-default', page]];
   const tags = alternates.map(([lang, path]) => `<link rel="alternate" hreflang="${lang}" href="${origin}${path}">`);
@@ -33,7 +34,7 @@ function addLanguages(html, code, page) {
 }
 
 function localizeHome(code) {
-  const { text } = catalog[code];
+  const { text, lang, faq } = catalog[code];
   const it = catalog.it.text;
   let html = home;
   for (const key of attrKeys) html = setText(html, '"' + it[key] + '"', '"' + escapeAttribute(text[key]) + '"');
@@ -48,13 +49,28 @@ function localizeHome(code) {
   html = html.replace(/(<meta property="og:title" content=")[^"]+"/, (_, start) => start + escapeAttribute(text.title + (code === 'it' ? '' : ' | Cotton Leaf')) + '"');
   const socialLocales = { it: 'it_IT', en: 'en_GB', ar: 'ar_AR', zh: 'zh_CN', fr: 'fr_FR', es: 'es_ES', de: 'de_DE', bn: 'bn_BD' };
   html = html.replace('content="it_IT"', 'content="' + socialLocales[code] + '"');
-  if (code !== 'it') {
-    html = html.replace(/(<script type="application\/ld\+json">)([\s\S]*?)(<\/script>)/, (_, start, source, end) => {
-      const data = JSON.parse(source);
-      data['@graph'].find((item) => item['@type'] === 'Service').description = text.description;
-      return start + '\n' + JSON.stringify(data, null, 2).split('\n').map((line) => '  ' + line).join('\n') + '\n  ' + end;
+  const pageUrl = origin + localizedPath(code, '');
+  html = html.replace(/(<script type="application\/ld\+json">)([\s\S]*?)(<\/script>)/, (_, start, source, end) => {
+    const data = JSON.parse(source);
+    const graph = data['@graph'].filter((item) => item['@type'] !== 'WebPage');
+    const service = graph.find((item) => item['@type'] === 'Service');
+    if (code !== 'it') {
+      service.description = text.description;
+      service.name = text.title;
+    }
+    graph.push({
+      '@type': 'WebPage',
+      '@id': pageUrl + '#webpage',
+      url: pageUrl,
+      name: text.title,
+      description: text.description,
+      inLanguage: lang,
+      isPartOf: { '@id': origin + '#website' },
+      mainEntity: { '@id': service['@id'] }
     });
-  }
+    data['@graph'] = graph;
+    return start + '\n' + JSON.stringify(data, null, 2).split('\n').map((line) => '  ' + line).join('\n') + '\n  ' + end;
+  });
   html = setText(html, ' ' + it.book + '</a>', ' ' + text.book + '</a>');
   html = setText(html, '>' + it.review + ' <svg', '>' + text.review + ' <svg');
   html = setText(html, '>' + it.directions + '<', '>' + text.directions + '<');
@@ -68,12 +84,20 @@ function localizeHome(code) {
     html = html.replace(/<span class="visually-hidden"> di (Via (?:Nomentana|Venti Settembre))<\/span>/g, '<span class="visually-hidden"> ($1)</span>');
   }
   html = html.replace(/ · Scheda del negozio in (Via (?:Nomentana|Venti Settembre)) su Google Maps/g, (_, street) => ' · ' + text.storeLabel + ' (' + street + ')');
+  const [faqTitle, ...questionsAndAnswers] = faq;
+  const faqMarkup = ['<section id="domande-frequenti" class="wrap faq" aria-labelledby="titolo-faq">', '      <h2 id="titolo-faq">' + faqTitle + '</h2>'];
+  for (let index = 0; index < questionsAndAnswers.length; index += 2) {
+    const [question, answer] = questionsAndAnswers.slice(index, index + 2);
+    faqMarkup.push('      <div class="faq-item">', '        <h3>' + question + '</h3>', '        <p>' + answer.replace('{phone}', phone) + '</p>', '      </div>');
+  }
+  faqMarkup.push('    </section>');
+  html = html.replace(/<!-- faq-content -->(?:[\s\S]*?<!-- end-faq-content -->)?/, () => '<!-- faq-content -->\n    ' + faqMarkup.join('\n') + '\n    <!-- end-faq-content -->');
   return prepare(html, code, '');
 }
 
 function prepare(html, code, page) {
   const { lang, dir } = catalog[code];
-  html = addLanguages(html, code, page);
+  html = addLanguages(withVersion(html), code, page);
   html = html.replace('<html lang="it">', '<html lang="' + lang + '"' + (dir === 'rtl' ? ' dir="rtl"' : '') + '>');
   html = html.replace(/(rel="canonical" href=")[^"]+/g, '$1' + origin + localizedPath(code, page));
   if (code !== 'it') {
@@ -85,10 +109,11 @@ function prepare(html, code, page) {
 }
 
 function localizeChangelog(code) {
-  const { text } = catalog[code];
+  const { text, seoRelease } = catalog[code];
   const it = catalog.it.text;
   let html = changelog;
   for (const key of ['back', 'language', 'release1', 'release2', 'release3']) html = setText(html, it[key], text[key]);
+  html = html.replace(/(<li data-seo-release>)[^<]+/, (_, opening) => opening + seoRelease);
   html = setText(html, '<title>' + it.news, '<title>' + text.news);
   html = setText(html, '>' + it.news + '<', '>' + text.news + '<');
   html = setText(html, '>' + it.version + ' ' + version + '<', '>' + text.version + ' ' + version + '<');
