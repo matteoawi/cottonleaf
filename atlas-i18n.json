@@ -1,0 +1,714 @@
+{
+  "languages": [
+    "it",
+    "en",
+    "ar",
+    "zh",
+    "fr",
+    "es",
+    "de",
+    "bn"
+  ],
+  "strings": {
+    "title": [
+      "Atlante dei tessuti",
+      "Fabric atlas",
+      "أطلس الأقمشة",
+      "面料图鉴",
+      "Atlas des tissus",
+      "Atlas de tejidos",
+      "Stoffatlas",
+      "কাপড়ের অ্যাটলাস"
+    ],
+    "intro": [
+      "Ogni camicia inizia da una scelta. Esplora i tessuti, avvicinati alla trama e trova quelli che senti tuoi.",
+      "Every shirt starts with a choice. Explore the fabrics, look closer at the weave and find your favourites.",
+      "كل قميص يبدأ باختيار. اكتشف الأقمشة وتفاصيل النسيج واختر ما يناسبك.",
+      "每件衬衫都始于一次选择。探索面料，细看纹理，找到心仪之选。",
+      "Chaque chemise commence par un choix. Explorez les tissus, découvrez leur trame et trouvez vos favoris.",
+      "Cada camisa empieza con una elección. Explora los tejidos, descubre su textura y encuentra tus favoritos.",
+      "Jedes Hemd beginnt mit einer Wahl. Entdecken Sie die Stoffe, ihre Struktur und Ihre Favoriten.",
+      "প্রতিটি শার্টের শুরু একটি পছন্দ থেকে। কাপড় দেখুন, বুনন কাছ থেকে দেখুন এবং আপনার পছন্দ খুঁজে নিন।"
+    ],
+    "home": [
+      "Torna al sito",
+      "Back to website",
+      "العودة إلى الموقع",
+      "返回网站",
+      "Retour au site",
+      "Volver al sitio",
+      "Zur Website",
+      "ওয়েবসাইটে ফিরুন"
+    ],
+    "search": [
+      "Cerca collezione o codice",
+      "Search collection or code",
+      "ابحث عن المجموعة أو الرمز",
+      "搜索系列或编号",
+      "Rechercher collection ou référence",
+      "Buscar colección o código",
+      "Kollektion oder Code suchen",
+      "কালেকশন বা কোড খুঁজুন"
+    ],
+    "collection": [
+      "Collezione",
+      "Collection",
+      "المجموعة",
+      "系列",
+      "Collection",
+      "Colección",
+      "Kollektion",
+      "কালেকশন"
+    ],
+    "allCollections": [
+      "Tutte le collezioni",
+      "All collections",
+      "كل المجموعات",
+      "全部系列",
+      "Toutes les collections",
+      "Todas las colecciones",
+      "Alle Kollektionen",
+      "সব কালেকশন"
+    ],
+    "pattern": [
+      "Fantasia",
+      "Pattern",
+      "النقشة",
+      "图案",
+      "Motif",
+      "Diseño",
+      "Muster",
+      "নকশা"
+    ],
+    "allPatterns": [
+      "Tutte le fantasie",
+      "All patterns",
+      "كل النقشات",
+      "全部图案",
+      "Tous les motifs",
+      "Todos los diseños",
+      "Alle Muster",
+      "সব নকশা"
+    ],
+    "plain": [
+      "Tinta unita",
+      "Plain",
+      "سادة",
+      "纯色",
+      "Uni",
+      "Liso",
+      "Uni",
+      "একরঙা"
+    ],
+    "stripes": [
+      "Righe",
+      "Stripes",
+      "خطوط",
+      "条纹",
+      "Rayures",
+      "Rayas",
+      "Streifen",
+      "ডোরাকাটা"
+    ],
+    "checks": [
+      "Quadri",
+      "Checks",
+      "مربعات",
+      "格纹",
+      "Carreaux",
+      "Cuadros",
+      "Karos",
+      "চেক"
+    ],
+    "texture": [
+      "Microfantasia",
+      "Textured",
+      "نقشة دقيقة",
+      "细纹",
+      "Micro-motif",
+      "Microdiseño",
+      "Feines Muster",
+      "সূক্ষ্ম নকশা"
+    ],
+    "color": [
+      "Colore",
+      "Colour",
+      "اللون",
+      "颜色",
+      "Couleur",
+      "Color",
+      "Farbe",
+      "রং"
+    ],
+    "allColors": [
+      "Tutti i colori",
+      "All colours",
+      "كل الألوان",
+      "全部颜色",
+      "Toutes les couleurs",
+      "Todos los colores",
+      "Alle Farben",
+      "সব রং"
+    ],
+    "white": [
+      "Bianco",
+      "White",
+      "أبيض",
+      "白色",
+      "Blanc",
+      "Blanco",
+      "Weiß",
+      "সাদা"
+    ],
+    "blue": [
+      "Blu e azzurro",
+      "Blue",
+      "أزرق",
+      "蓝色",
+      "Bleu",
+      "Azul",
+      "Blau",
+      "নীল"
+    ],
+    "pink": [
+      "Rosa",
+      "Pink",
+      "وردي",
+      "粉色",
+      "Rose",
+      "Rosa",
+      "Rosa",
+      "গোলাপি"
+    ],
+    "red": [
+      "Rosso e bordeaux",
+      "Red and burgundy",
+      "أحمر وعنابي",
+      "红色与酒红色",
+      "Rouge et bordeaux",
+      "Rojo y burdeos",
+      "Rot und Bordeaux",
+      "লাল ও বারগান্ডি"
+    ],
+    "green": [
+      "Verde",
+      "Green",
+      "أخضر",
+      "绿色",
+      "Vert",
+      "Verde",
+      "Grün",
+      "সবুজ"
+    ],
+    "purple": [
+      "Viola",
+      "Purple",
+      "بنفسجي",
+      "紫色",
+      "Violet",
+      "Morado",
+      "Violett",
+      "বেগুনি"
+    ],
+    "neutral": [
+      "Beige e grigio",
+      "Beige and grey",
+      "بيج ورمادي",
+      "米色与灰色",
+      "Beige et gris",
+      "Beige y gris",
+      "Beige und Grau",
+      "বেইজ ও ধূসর"
+    ],
+    "dark": [
+      "Scuri",
+      "Dark",
+      "ألوان داكنة",
+      "深色",
+      "Foncés",
+      "Oscuros",
+      "Dunkel",
+      "গাঢ়"
+    ],
+    "sort": [
+      "Ordina",
+      "Sort",
+      "ترتيب",
+      "排序",
+      "Trier",
+      "Ordenar",
+      "Sortieren",
+      "সাজান"
+    ],
+    "sortColor": [
+      "Per colore",
+      "By colour",
+      "حسب اللون",
+      "按颜色",
+      "Par couleur",
+      "Por color",
+      "Nach Farbe",
+      "রং অনুযায়ী"
+    ],
+    "sortCollection": [
+      "Per collezione",
+      "By collection",
+      "حسب المجموعة",
+      "按系列",
+      "Par collection",
+      "Por colección",
+      "Nach Kollektion",
+      "কালেকশন অনুযায়ী"
+    ],
+    "sortCode": [
+      "Per codice",
+      "By code",
+      "حسب الرمز",
+      "按编号",
+      "Par référence",
+      "Por código",
+      "Nach Code",
+      "কোড অনুযায়ী"
+    ],
+    "fabrics": [
+      "tessuti",
+      "fabrics",
+      "قماش",
+      "款面料",
+      "tissus",
+      "tejidos",
+      "Stoffe",
+      "টি কাপড়"
+    ],
+    "reset": [
+      "Azzera filtri",
+      "Reset filters",
+      "مسح الفلاتر",
+      "重置筛选",
+      "Réinitialiser",
+      "Borrar filtros",
+      "Filter zurücksetzen",
+      "ফিল্টার মুছুন"
+    ],
+    "saved": [
+      "I tuoi tessuti",
+      "Your fabrics",
+      "أقمشتك",
+      "已收藏面料",
+      "Vos tissus",
+      "Tus tejidos",
+      "Ihre Stoffe",
+      "আপনার কাপড়"
+    ],
+    "save": [
+      "Salva tessuto",
+      "Save fabric",
+      "حفظ القماش",
+      "收藏面料",
+      "Enregistrer ce tissu",
+      "Guardar tejido",
+      "Stoff merken",
+      "কাপড় সংরক্ষণ করুন"
+    ],
+    "remove": [
+      "Rimuovi dai preferiti",
+      "Remove from favourites",
+      "إزالة من المفضلة",
+      "取消收藏",
+      "Retirer des favoris",
+      "Quitar de favoritos",
+      "Aus Favoriten entfernen",
+      "পছন্দ থেকে সরান"
+    ],
+    "savedOnly": [
+      "Solo preferiti",
+      "Favourites only",
+      "المفضلة فقط",
+      "仅看收藏",
+      "Favoris uniquement",
+      "Solo favoritos",
+      "Nur Favoriten",
+      "শুধু পছন্দের"
+    ],
+    "close": [
+      "Chiudi",
+      "Close",
+      "إغلاق",
+      "关闭",
+      "Fermer",
+      "Cerrar",
+      "Schließen",
+      "বন্ধ করুন"
+    ],
+    "view": [
+      "Esplora",
+      "Explore",
+      "استكشف",
+      "查看",
+      "Explorer",
+      "Explorar",
+      "Entdecken",
+      "দেখুন"
+    ],
+    "code": [
+      "Codice",
+      "Code",
+      "الرمز",
+      "编号",
+      "Référence",
+      "Código",
+      "Code",
+      "কোড"
+    ],
+    "compare": [
+      "Confronta",
+      "Compare",
+      "مقارنة",
+      "对比",
+      "Comparer",
+      "Comparar",
+      "Vergleichen",
+      "তুলনা করুন"
+    ],
+    "addCompare": [
+      "Aggiungi al confronto",
+      "Add to comparison",
+      "أضف للمقارنة",
+      "加入对比",
+      "Ajouter à la comparaison",
+      "Añadir a comparación",
+      "Zum Vergleich hinzufügen",
+      "তুলনায় যোগ করুন"
+    ],
+    "removeCompare": [
+      "Togli dal confronto",
+      "Remove from comparison",
+      "إزالة من المقارنة",
+      "移出对比",
+      "Retirer de la comparaison",
+      "Quitar de comparación",
+      "Aus Vergleich entfernen",
+      "তুলনা থেকে সরান"
+    ],
+    "compareLimit": [
+      "Puoi confrontare fino a quattro tessuti alla volta.",
+      "Compare up to four fabrics at a time.",
+      "يمكن مقارنة أربعة أقمشة كحد أقصى.",
+      "一次最多可对比四款面料。",
+      "Comparez jusqu’à quatre tissus à la fois.",
+      "Puedes comparar hasta cuatro tejidos a la vez.",
+      "Vergleichen Sie bis zu vier Stoffe gleichzeitig.",
+      "একসঙ্গে সর্বোচ্চ চারটি কাপড় তুলনা করতে পারবেন।"
+    ],
+    "saveLimit": [
+      "Puoi salvare fino a dodici tessuti. Rimuovine uno per aggiungerne un altro.",
+      "Save up to twelve fabrics. Remove one to add another.",
+      "يمكن حفظ اثني عشر قماشاً. أزل واحداً لإضافة آخر.",
+      "最多可收藏十二款面料，请先移除一款再添加。",
+      "Enregistrez jusqu’à douze tissus. Retirez-en un pour en ajouter un autre.",
+      "Guarda hasta doce tejidos. Quita uno para añadir otro.",
+      "Merken Sie bis zu zwölf Stoffe. Entfernen Sie einen, um einen weiteren hinzuzufügen.",
+      "সর্বোচ্চ বারোটি কাপড় সংরক্ষণ করুন। নতুনটি যোগ করতে একটি সরান।"
+    ],
+    "empty": [
+      "Nessun tessuto corrisponde alla ricerca.",
+      "No fabrics match your search.",
+      "لا توجد أقمشة تطابق البحث.",
+      "没有符合条件的面料。",
+      "Aucun tissu ne correspond à votre recherche.",
+      "Ningún tejido coincide con tu búsqueda.",
+      "Keine Stoffe entsprechen Ihrer Suche.",
+      "কোনো কাপড় আপনার অনুসন্ধানের সঙ্গে মেলেনি।"
+    ],
+    "emptySaved": [
+      "Il tuo campionario inizia da un cuore. Salva i tessuti che ti piacciono e ritrovali qui.",
+      "Your collection starts with a heart. Save the fabrics you like and find them here.",
+      "مجموعتك تبدأ بقلب. احفظ الأقمشة المفضلة لتجدها هنا.",
+      "点击爱心收藏喜欢的面料，即可在这里找到。",
+      "Votre sélection commence par un cœur. Enregistrez vos tissus préférés pour les retrouver ici.",
+      "Tu selección empieza con un corazón. Guarda los tejidos que te gusten y encuéntralos aquí.",
+      "Ihre Auswahl beginnt mit einem Herz. Merken Sie sich Stoffe und finden Sie sie hier wieder.",
+      "হার্ট চিহ্নে চাপ দিয়ে পছন্দের কাপড় সংরক্ষণ করুন এবং এখানে খুঁজে নিন।"
+    ],
+    "book": [
+      "Voglio vederli dal vivo",
+      "See them in person",
+      "أريد رؤيتها عن قرب",
+      "预约实物体验",
+      "Les voir en vrai",
+      "Verlos en persona",
+      "Stoffe vor Ort ansehen",
+      "সরাসরি দেখতে চাই"
+    ],
+    "bookOne": [
+      "Voglio vedere questo tessuto",
+      "See this fabric in person",
+      "أريد رؤية هذا القماش",
+      "预约查看这款面料",
+      "Voir ce tissu en vrai",
+      "Ver este tejido en persona",
+      "Diesen Stoff vor Ort ansehen",
+      "এই কাপড়টি সরাসরি দেখতে চাই"
+    ],
+    "message": [
+      "Ciao Cotton Leaf, vorrei vedere dal vivo questi tessuti per una camicia su misura a Roma:",
+      "Hello Cotton Leaf, I would like to see these fabrics in person for a made-to-measure shirt in Rome:",
+      "مرحباً Cotton Leaf، أود رؤية هذه الأقمشة لقميص حسب المقاس في روما:",
+      "您好 Cotton Leaf，我想在罗马预约查看以下定制衬衫面料：",
+      "Bonjour Cotton Leaf, je souhaite voir ces tissus pour une chemise sur mesure à Rome :",
+      "Hola Cotton Leaf, me gustaría ver estos tejidos para una camisa a medida en Roma:",
+      "Hallo Cotton Leaf, ich möchte diese Stoffe für ein Maßhemd in Rom ansehen:",
+      "হ্যালো Cotton Leaf, রোমে মাপমতো শার্টের জন্য এই কাপড়গুলো সরাসরি দেখতে চাই:"
+    ],
+    "appointment": [
+      "Misure e tessuti in negozio o con visita gratuita a casa, in ufficio o in hotel a Roma.",
+      "Measurements and fabric selection in store, or with a free visit to your home, office or hotel in Rome.",
+      "أخذ المقاسات واختيار الأقمشة في المتجر أو بزيارة مجانية للمنزل أو المكتب أو الفندق في روما.",
+      "可到店量体选料，或预约罗马地区免费上门服务：家中、办公室或酒店。",
+      "Mesures et choix des tissus en boutique ou lors d’une visite gratuite à domicile, au bureau ou à l’hôtel à Rome.",
+      "Medidas y elección de tejidos en tienda o con visita gratuita a casa, oficina u hotel en Roma.",
+      "Maße und Stoffauswahl im Geschäft oder bei einem kostenlosen Besuch zu Hause, im Büro oder Hotel in Rom.",
+      "দোকানে মাপ ও কাপড় বাছাই, অথবা রোমে বাড়ি, অফিস বা হোটেলে বিনামূল্যে ভিজিট।"
+    ],
+    "notice": [
+      "I colori a schermo possono variare. Confermiamo insieme disponibilità e dettagli del tessuto prima dell’ordine.",
+      "Screen colours may vary. We confirm availability and fabric details together before ordering.",
+      "قد تختلف الألوان على الشاشة. نؤكد التوفر وتفاصيل القماش معاً قبل الطلب.",
+      "屏幕显示颜色可能存在差异。下单前我们会与您确认面料详情及供应情况。",
+      "Les couleurs à l’écran peuvent varier. Nous confirmons disponibilité et détails du tissu avant la commande.",
+      "Los colores en pantalla pueden variar. Confirmamos disponibilidad y detalles del tejido antes del pedido.",
+      "Bildschirmfarben können abweichen. Verfügbarkeit und Stoffdetails bestätigen wir vor der Bestellung gemeinsam.",
+      "পর্দার রং কিছুটা ভিন্ন হতে পারে। অর্ডারের আগে কাপড়ের বিবরণ ও প্রাপ্যতা নিশ্চিত করা হবে।"
+    ],
+    "price": [
+      "Camicie per uomo e donna da 55 €",
+      "Shirts for men and women from €55",
+      "قمصان للرجال والنساء ابتداءً من 55 €",
+      "男女定制衬衫 55 欧元起",
+      "Chemises homme et femme dès 55 €",
+      "Camisas para hombre y mujer desde 55 €",
+      "Hemden und Blusen ab 55 €",
+      "পুরুষ ও নারীর শার্ট ৫৫ ইউরো থেকে"
+    ],
+    "whole": [
+      "Mostra il campione intero",
+      "Show the whole swatch",
+      "عرض العينة كاملة",
+      "显示完整样片",
+      "Afficher tout l’échantillon",
+      "Ver la muestra completa",
+      "Ganzes Muster anzeigen",
+      "সম্পূর্ণ নমুনা দেখুন"
+    ],
+    "zoomIn": [
+      "Ingrandisci",
+      "Zoom in",
+      "تكبير",
+      "放大",
+      "Agrandir",
+      "Ampliar",
+      "Vergrößern",
+      "বড় করুন"
+    ],
+    "zoomOut": [
+      "Riduci",
+      "Zoom out",
+      "تصغير",
+      "缩小",
+      "Réduire",
+      "Reducir",
+      "Verkleinern",
+      "ছোট করুন"
+    ],
+    "zoomHint": [
+      "Ingrandisci e trascina per esplorare la trama.",
+      "Zoom in and drag to explore the weave.",
+      "كبّر واسحب لاستكشاف النسيج.",
+      "放大后拖动，细看面料纹理。",
+      "Agrandissez puis faites glisser pour explorer la trame.",
+      "Amplía y arrastra para explorar la textura.",
+      "Vergrößern und ziehen, um die Struktur zu erkunden.",
+      "বড় করে টেনে বুনন দেখুন।"
+    ],
+    "previous": [
+      "Tessuto precedente",
+      "Previous fabric",
+      "القماش السابق",
+      "上一款面料",
+      "Tissu précédent",
+      "Tejido anterior",
+      "Vorheriger Stoff",
+      "আগের কাপড়"
+    ],
+    "next": [
+      "Tessuto successivo",
+      "Next fabric",
+      "القماش التالي",
+      "下一款面料",
+      "Tissu suivant",
+      "Tejido siguiente",
+      "Nächster Stoff",
+      "পরের কাপড়"
+    ],
+    "share": [
+      "Copia link del tessuto",
+      "Copy fabric link",
+      "نسخ رابط القماش",
+      "复制面料链接",
+      "Copier le lien du tissu",
+      "Copiar enlace del tejido",
+      "Stofflink kopieren",
+      "কাপড়ের লিংক কপি করুন"
+    ],
+    "copied": [
+      "Link copiato",
+      "Link copied",
+      "تم نسخ الرابط",
+      "链接已复制",
+      "Lien copié",
+      "Enlace copiado",
+      "Link kopiert",
+      "লিংক কপি হয়েছে"
+    ],
+    "copyError": [
+      "Copia il link dalla barra degli indirizzi.",
+      "Copy the link from your address bar.",
+      "انسخ الرابط من شريط العنوان.",
+      "请从地址栏复制链接。",
+      "Copiez le lien depuis la barre d’adresse.",
+      "Copia el enlace de la barra de direcciones.",
+      "Kopieren Sie den Link aus der Adressleiste.",
+      "অ্যাড্রেস বার থেকে লিংক কপি করুন।"
+    ],
+    "more": [
+      "Campioni più grandi",
+      "Larger swatches",
+      "عينات أكبر",
+      "放大样片",
+      "Échantillons plus grands",
+      "Muestras más grandes",
+      "Größere Muster",
+      "বড় নমুনা"
+    ],
+    "less": [
+      "Più tessuti a schermo",
+      "More fabrics on screen",
+      "المزيد من الأقمشة",
+      "显示更多面料",
+      "Plus de tissus à l’écran",
+      "Más tejidos en pantalla",
+      "Mehr Stoffe anzeigen",
+      "আরও কাপড় দেখান"
+    ],
+    "skip": [
+      "Vai ai tessuti",
+      "Skip to fabrics",
+      "انتقل إلى الأقمشة",
+      "跳转至面料",
+      "Aller aux tissus",
+      "Ir a los tejidos",
+      "Zu den Stoffen",
+      "কাপড়ে যান"
+    ],
+    "language": [
+      "Lingua",
+      "Language",
+      "اللغة",
+      "语言",
+      "Langue",
+      "Idioma",
+      "Sprache",
+      "ভাষা"
+    ],
+    "selectionHint": [
+      "Salva fino a 12 tessuti. Aprine uno e aggiungilo al confronto: puoi affiancarne fino a 4.",
+      "Save up to 12 fabrics. Open a fabric and add it to comparison: compare up to 4.",
+      "احفظ حتى 12 قماشاً. افتح القماش وأضفه للمقارنة، حتى 4 أقمشة.",
+      "可收藏最多12款面料。打开面料并加入对比，最多同时对比4款。",
+      "Enregistrez jusqu’à 12 tissus. Ouvrez un tissu et ajoutez-le à la comparaison, jusqu’à 4.",
+      "Guarda hasta 12 tejidos. Abre uno y añádelo a comparación, hasta 4 a la vez.",
+      "Merken Sie bis zu 12 Stoffe. Öffnen Sie einen und fügen Sie ihn zum Vergleich hinzu, bis zu 4.",
+      "সর্বোচ্চ ১২টি কাপড় সংরক্ষণ করুন। একটি খুলে তুলনায় যোগ করুন, একসঙ্গে সর্বোচ্চ ৪টি।"
+    ],
+    "compareHint": [
+      "Affianca le trame e scegli quali vedere dal vivo.",
+      "Compare the weaves and choose which to see in person.",
+      "قارن الأنسجة واختر ما تريد رؤيته عن قرب.",
+      "并排比较纹理，选择想要实地体验的面料。",
+      "Comparez les trames et choisissez celles à voir en vrai.",
+      "Compara las texturas y elige cuáles ver en persona.",
+      "Vergleichen Sie Strukturen und wählen Sie Stoffe zum Ansehen.",
+      "বুনন তুলনা করুন এবং সরাসরি দেখার জন্য বেছে নিন।"
+    ],
+    "storageNotice": [
+      "I preferiti restano disponibili durante questa visita; il browser non consente di salvarli per la prossima.",
+      "Favourites are available for this visit; your browser does not allow saving them for next time.",
+      "المفضلة متاحة في هذه الزيارة؛ المتصفح لا يسمح بحفظها للمرة القادمة.",
+      "收藏在本次访问中有效；浏览器不允许保存到下次。",
+      "Les favoris restent disponibles pendant cette visite ; votre navigateur empêche leur sauvegarde.",
+      "Los favoritos están disponibles durante esta visita; el navegador impide guardarlos para la próxima.",
+      "Favoriten sind während dieses Besuchs verfügbar; Ihr Browser verhindert das dauerhafte Speichern.",
+      "এই ভিজিটে পছন্দের কাপড় থাকবে; ব্রাউজার পরেরবারের জন্য সংরক্ষণ করতে দিচ্ছে না।"
+    ],
+    "loadMore": [
+      "Mostra altri tessuti",
+      "Show more fabrics",
+      "عرض المزيد من الأقمشة",
+      "显示更多面料",
+      "Afficher plus de tissus",
+      "Mostrar más tejidos",
+      "Weitere Stoffe anzeigen",
+      "আরও কাপড় দেখুন"
+    ],
+    "composition": [
+      "Composizione",
+      "Composition",
+      "التركيب",
+      "成分",
+      "Composition",
+      "Composición",
+      "Zusammensetzung",
+      "উপাদান"
+    ],
+    "CO": [
+      "cotone",
+      "cotton",
+      "قطن",
+      "棉",
+      "coton",
+      "algodón",
+      "Baumwolle",
+      "সুতি"
+    ],
+    "LI": [
+      "lino",
+      "linen",
+      "كتان",
+      "亚麻",
+      "lin",
+      "lino",
+      "Leinen",
+      "লিনেন"
+    ],
+    "EA": [
+      "elastan",
+      "elastane",
+      "إيلاستان",
+      "弹性纤维",
+      "élasthanne",
+      "elastano",
+      "Elasthan",
+      "ইলাস্টেন"
+    ],
+    "PA": [
+      "poliammide",
+      "polyamide",
+      "بولي أميد",
+      "聚酰胺",
+      "polyamide",
+      "poliamida",
+      "Polyamid",
+      "পলিঅ্যামাইড"
+    ]
+  }
+}

@@ -1,0 +1,4 @@
+{
+  "prompt": "Origin: user-provided 20261106174551.pdf, SHA-256 64d9986290d280b0ebceaca9d9e6b7d265ea72950f438147aad7b97bcf1ae1a0. Real Carnevali fabric scan: Town 22. Source PDF page 43, original scan box 1885,4078,3026,4434. Full-width scan crop resized to at most 960px. No generated fabric pixels. Complete source references in fabrics.json and catalog-provenance.json; pipeline in scripts/extract-catalog.py.",
+  "createdAt": "2026-11-26T11:33:09.584Z"
+}

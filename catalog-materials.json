@@ -1,0 +1,30 @@
+{
+  "source": "20261106174551.pdf, technical composition labels checked against original scans",
+  "collections": {
+    "Wrinkle Free": {"page":24,"parts":[[100,"CO"]]},
+    "New York": {"page":2,"parts":[[98,"CO"],[2,"XLA"]]},
+    "Manhattan": {"page":6,"parts":[[98,"CO"],[2,"XLA"]]},
+    "Mexico": {"page":6,"parts":[[95,"CO"],[5,"XLA"]]},
+    "Silver 70": {"page":7,"parts":[[100,"CO"]]},
+    "Prince Plus": {"page":12,"parts":[[96,"CO"],[4,"EA"]]},
+    "Atene": {"page":13,"parts":[[100,"LI"]]},
+    "Ios": {"page":15,"parts":[[55,"LI"],[45,"CO"]]},
+    "Miami Stretch 50": {"page":20,"parts":[[75,"CO"],[22,"PA"],[3,"EA"]]},
+    "Platino": {"page":25,"parts":[[100,"CO"]]},
+    "Platino Special": {"page":10,"parts":[[100,"CO"]]},
+    "Platino Satin": {"page":44,"parts":[[100,"CO"]]},
+    "Gold Satin": {"page":44,"parts":[[100,"CO"]]},
+    "Topazio D.R.": {"page":19,"parts":[[100,"CO"]]},
+    "Topazio Twill D.R.": {"page":5,"parts":[[100,"CO"]]},
+    "Topazio Dobby D.R.": {"page":5,"parts":[[100,"CO"]]},
+    "Oxford Gold": {"page":11,"parts":[[100,"CO"]]},
+    "Millenium": {"page":11,"parts":[[100,"CO"]]},
+    "Super Twill": {"page":21,"parts":[[100,"CO"]]},
+    "Maldives": {"page":26,"parts":[[100,"CO"]]},
+    "Denim": {"page":39,"parts":[[100,"CO"]]},
+    "Acapulco": {"page":40,"parts":[[100,"CO"]]},
+    "Cordoba": {"page":41,"parts":[[100,"CO"]]},
+    "Town": {"page":43,"parts":[[100,"CO"]]},
+    "Firenze D.R.": {"page":48,"parts":[[100,"CO"]]}
+  }
+}

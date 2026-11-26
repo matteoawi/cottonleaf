@@ -1,4 +1,5 @@
 import { readFileSync, writeFileSync, mkdirSync } from 'node:fs';
+import { buildAtlas } from './build-atlas.mjs';
 
 const read = (path) => readFileSync(new URL(path, import.meta.url), 'utf8');
 const write = (path, contents) => writeFileSync(new URL(path, import.meta.url), contents.replaceAll('\r\n', '\n'));
@@ -17,7 +18,7 @@ const setText = (html, before, after) => {
   if (!html.includes(before)) throw new Error('Missing translation source: ' + before);
   return html.replaceAll(before, () => after);
 };
-const bodyKeys = ['navSteps', 'navFabrics', 'navStores', 'pay', 'skip', 'headline', 'price', 'call', 'visit', 'free', 'pickup', 'delivery', 'steps', 'stepsLead', 'step1', 'step2', 'step2Text', 'step3', 'step3Text', 'fabricTitle', 'fabricText', 'bookCaption', 'gallery', 'stores', 'storesText', 'booking', 'reviewTitle', 'reviewText'];
+const bodyKeys = ['navSteps', 'navFabrics', 'navStores', 'pay', 'skip', 'headline', 'price', 'call', 'visit', 'free', 'pickup', 'delivery', 'steps', 'stepsLead', 'step1', 'step2', 'step2Text', 'step3', 'step3Text', 'fabricTitle', 'fabricText', 'atlasLink', 'bookCaption', 'gallery', 'stores', 'storesText', 'booking', 'reviewTitle', 'reviewText'];
 const attrKeys = ['navLabel', 'fees', 'prev', 'next', 'galleryLabel', 'heroAlt', 'bookAlt', 'photo1', 'photo2', 'photo3', 'photo4', 'photo5', 'photo6', 'socialAlt'];
 
 function addLanguages(html, code, page) {
@@ -114,6 +115,7 @@ function localizeChangelog(code) {
   let html = changelog;
   for (const key of ['back', 'language', 'release1', 'release2', 'release3']) html = setText(html, it[key], text[key]);
   html = html.replace(/(<li data-seo-release>)[^<]+/, (_, opening) => opening + seoRelease);
+  html = html.replace(/(<li data-atlas-release>)[^<]+/, (_, opening) => opening + catalog[code].atlasRelease);
   html = setText(html, '<title>' + it.news, '<title>' + text.news);
   html = setText(html, '>' + it.news + '<', '>' + text.news + '<');
   html = setText(html, '>' + it.version + ' ' + version + '<', '>' + text.version + ' ' + version + '<');
@@ -136,5 +138,6 @@ for (const code of Object.keys(catalog)) {
 const localizedUrls = Object.keys(catalog).filter((code) => code !== 'it').flatMap((code) =>
   ['', 'changelog.html'].map((page) => `  <url><loc>${origin}${localizedPath(code, page)}</loc><lastmod>${releaseDate}</lastmod></url>`)
 );
-const sitemap = read('sitemap.xml').replace(/  <!-- localized-urls -->[\s\S]*?  <!-- end-localized-urls -->\n?/g, '');
-write('sitemap.xml', sitemap.replace('</urlset>', '  <!-- localized-urls -->\n' + localizedUrls.join('\n') + '\n  <!-- end-localized-urls -->\n</urlset>'));
+const atlasUrls = buildAtlas({ version, releaseDate, locales: catalog });
+const sitemap = read('sitemap.xml').replace(/  <!-- localized-urls -->[\s\S]*?  <!-- end-localized-urls -->\n?/g, '').replace(/<lastmod>[^<]+<\/lastmod>/g, '<lastmod>'+releaseDate+'</lastmod>');
+write('sitemap.xml', sitemap.replace('</urlset>', '  <!-- localized-urls -->\n' + [...localizedUrls, ...atlasUrls.map(url=>'  '+url)].join('\n') + '\n  <!-- end-localized-urls -->\n</urlset>'));

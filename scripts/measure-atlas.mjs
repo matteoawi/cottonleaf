@@ -1,0 +1,35 @@
+import {createRequire} from 'node:module';
+import {createServer} from 'node:http';
+import {gzipSync} from 'node:zlib';
+import {readFile,writeFile,mkdir} from 'node:fs/promises';
+import {resolve,dirname,extname,sep} from 'node:path';
+import {fileURLToPath,pathToFileURL} from 'node:url';
+const require=createRequire(import.meta.url);
+const modules=process.env.COTTONLEAF_QA_MODULES||resolve(process.env.LOCALAPPDATA,'Temp/cottonleaf-poster-tools/node_modules');
+const {chromium}=require(resolve(modules,'playwright-core'));
+const {default:AxeBuilder}=await import(pathToFileURL(resolve(modules,'@axe-core/playwright/dist/index.mjs')));
+const {default:lighthouse}=await import(pathToFileURL(resolve(modules,'lighthouse/core/index.js')));
+const chromeLauncher=await import(pathToFileURL(resolve(modules,'chrome-launcher/dist/index.js')));
+const root=resolve(dirname(fileURLToPath(import.meta.url)),'..');
+const out=resolve(root,'.impeccable/review/atlas');await mkdir(out,{recursive:true});
+const server=createServer(async(req,res)=>{try{let name=decodeURIComponent(new URL(req.url,'http://local').pathname);if(name.endsWith('/'))name+='index.html';const file=resolve(root,'.'+name);if(!file.startsWith(root+sep)){res.writeHead(403).end();return;}res.setHeader('Content-Type',({'.html':'text/html; charset=utf-8','.css':'text/css','.js':'text/javascript','.json':'application/json','.webp':'image/webp','.woff2':'font/woff2','.svg':'image/svg+xml'})[extname(file)]||'application/octet-stream');const body=await readFile(file);res.setHeader('Cache-Control','public, max-age=600');if(/\.(html|css|js|json|svg)$/.test(file)&&req.headers['accept-encoding']?.includes('gzip')){res.setHeader('Content-Encoding','gzip');res.end(gzipSync(body));}else res.end(body);}catch{res.writeHead(404).end();}});
+await new Promise(r=>server.listen(0,'127.0.0.1',r));
+const url=`http://127.0.0.1:${server.address().port}/tessuti/`;
+const chromePath=process.env.COTTONLEAF_CHROME||'C:/Program Files/Google/Chrome/Application/chrome.exe';
+let browser,chrome;
+try{
+ browser=await chromium.launch({executablePath:chromePath,headless:true});
+ const context=await browser.newContext({viewport:{width:390,height:844},locale:'it-IT'});
+ const page=await context.newPage();
+ await page.goto(url);await page.evaluate(()=>document.fonts.ready);
+ const axe=await new AxeBuilder({page}).withTags(['wcag2a','wcag2aa','wcag21aa','wcag22aa']).analyze();
+ await writeFile(resolve(out,'accessibility.json'),JSON.stringify({violations:axe.violations,incomplete:axe.incomplete.map(x=>({id:x.id,description:x.description})),passes:axe.passes.length},null,2)+'\n');
+ console.log('Accessibility violations: '+axe.violations.length);
+ await browser.close();browser=null;
+ chrome=await chromeLauncher.launch({chromePath,chromeFlags:['--headless=new','--disable-gpu','--no-first-run','--disable-background-networking']});
+ const result=await lighthouse(url,{port:chrome.port,output:['json','html'],logLevel:'error',onlyCategories:['performance','accessibility','best-practices','seo']});
+ await writeFile(resolve(out,'lighthouse.json'),result.report[0]);await writeFile(resolve(out,'lighthouse.html'),result.report[1]);
+ const summary={url:'Local production build of https://cottonleaf.it/tessuti/',version:'1.6.0',date:'2026-11-26',scores:Object.fromEntries(Object.entries(result.lhr.categories).map(([k,v])=>[k,Math.round(v.score*100)])),metrics:Object.fromEntries(['first-contentful-paint','largest-contentful-paint','total-blocking-time','cumulative-layout-shift','speed-index'].map(k=>[k,result.lhr.audits[k].displayValue])),accessibilityViolations:axe.violations.length};
+ await writeFile(resolve(out,'performance-summary.json'),JSON.stringify(summary,null,2)+'\n');console.log(JSON.stringify(summary));
+ console.log(JSON.stringify(Object.values(result.lhr.audits).filter(a=>a.score!==null&&a.score<1&&a.details?.type!=='opportunity').map(a=>({id:a.id,score:a.score,title:a.title,display:a.displayValue})).slice(0,18)));
+}finally{if(browser)await browser.close();if(chrome)try{await chrome.kill();}catch{}server.close();}

@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://cottonleaf.it/</loc>
-    <lastmod>2026-11-14</lastmod>
+    <lastmod>2026-11-26</lastmod>
     <image:image><image:loc>https://cottonleaf.it/assets/cotton-leaf-tessuti-765.webp</image:loc></image:image>
     <image:image><image:loc>https://cottonleaf.it/assets/campionario-tessuti-960.webp</image:loc></image:image>
     <image:image><image:loc>https://cottonleaf.it/assets/galleria-ingresso-nomentana.webp</image:loc></image:image>
@@ -14,22 +14,30 @@
   </url>
   <url>
     <loc>https://cottonleaf.it/changelog.html</loc>
-    <lastmod>2026-11-14</lastmod>
+    <lastmod>2026-11-26</lastmod>
   </url>
   <!-- localized-urls -->
-  <url><loc>https://cottonleaf.it/en/</loc><lastmod>2026-11-14</lastmod></url>
-  <url><loc>https://cottonleaf.it/en/changelog.html</loc><lastmod>2026-11-14</lastmod></url>
-  <url><loc>https://cottonleaf.it/ar/</loc><lastmod>2026-11-14</lastmod></url>
-  <url><loc>https://cottonleaf.it/ar/changelog.html</loc><lastmod>2026-11-14</lastmod></url>
-  <url><loc>https://cottonleaf.it/zh/</loc><lastmod>2026-11-14</lastmod></url>
-  <url><loc>https://cottonleaf.it/zh/changelog.html</loc><lastmod>2026-11-14</lastmod></url>
-  <url><loc>https://cottonleaf.it/fr/</loc><lastmod>2026-11-14</lastmod></url>
-  <url><loc>https://cottonleaf.it/fr/changelog.html</loc><lastmod>2026-11-14</lastmod></url>
-  <url><loc>https://cottonleaf.it/es/</loc><lastmod>2026-11-14</lastmod></url>
-  <url><loc>https://cottonleaf.it/es/changelog.html</loc><lastmod>2026-11-14</lastmod></url>
-  <url><loc>https://cottonleaf.it/de/</loc><lastmod>2026-11-14</lastmod></url>
-  <url><loc>https://cottonleaf.it/de/changelog.html</loc><lastmod>2026-11-14</lastmod></url>
-  <url><loc>https://cottonleaf.it/bn/</loc><lastmod>2026-11-14</lastmod></url>
-  <url><loc>https://cottonleaf.it/bn/changelog.html</loc><lastmod>2026-11-14</lastmod></url>
+  <url><loc>https://cottonleaf.it/en/</loc><lastmod>2026-11-26</lastmod></url>
+  <url><loc>https://cottonleaf.it/en/changelog.html</loc><lastmod>2026-11-26</lastmod></url>
+  <url><loc>https://cottonleaf.it/ar/</loc><lastmod>2026-11-26</lastmod></url>
+  <url><loc>https://cottonleaf.it/ar/changelog.html</loc><lastmod>2026-11-26</lastmod></url>
+  <url><loc>https://cottonleaf.it/zh/</loc><lastmod>2026-11-26</lastmod></url>
+  <url><loc>https://cottonleaf.it/zh/changelog.html</loc><lastmod>2026-11-26</lastmod></url>
+  <url><loc>https://cottonleaf.it/fr/</loc><lastmod>2026-11-26</lastmod></url>
+  <url><loc>https://cottonleaf.it/fr/changelog.html</loc><lastmod>2026-11-26</lastmod></url>
+  <url><loc>https://cottonleaf.it/es/</loc><lastmod>2026-11-26</lastmod></url>
+  <url><loc>https://cottonleaf.it/es/changelog.html</loc><lastmod>2026-11-26</lastmod></url>
+  <url><loc>https://cottonleaf.it/de/</loc><lastmod>2026-11-26</lastmod></url>
+  <url><loc>https://cottonleaf.it/de/changelog.html</loc><lastmod>2026-11-26</lastmod></url>
+  <url><loc>https://cottonleaf.it/bn/</loc><lastmod>2026-11-26</lastmod></url>
+  <url><loc>https://cottonleaf.it/bn/changelog.html</loc><lastmod>2026-11-26</lastmod></url>
+  <url><loc>https://cottonleaf.it/tessuti/</loc><lastmod>2026-11-26</lastmod></url>
+  <url><loc>https://cottonleaf.it/en/tessuti/</loc><lastmod>2026-11-26</lastmod></url>
+  <url><loc>https://cottonleaf.it/ar/tessuti/</loc><lastmod>2026-11-26</lastmod></url>
+  <url><loc>https://cottonleaf.it/zh/tessuti/</loc><lastmod>2026-11-26</lastmod></url>
+  <url><loc>https://cottonleaf.it/fr/tessuti/</loc><lastmod>2026-11-26</lastmod></url>
+  <url><loc>https://cottonleaf.it/es/tessuti/</loc><lastmod>2026-11-26</lastmod></url>
+  <url><loc>https://cottonleaf.it/de/tessuti/</loc><lastmod>2026-11-26</lastmod></url>
+  <url><loc>https://cottonleaf.it/bn/tessuti/</loc><lastmod>2026-11-26</lastmod></url>
   <!-- end-localized-urls -->
 </urlset>
