@@ -1,0 +1,23 @@
+{
+  "tool": "image_gen built-in",
+  "version": "1.1.0",
+  "date": "2026-11-26",
+  "referenceImages": [
+    "assets/cotton-leaf-tessuti-765.webp",
+    "assets/campionario-tessuti-960.webp"
+  ],
+  "concepts": [
+    {
+      "id": "atelier",
+      "prompt": "Use case: ads-marketing. Create the final photographic art panel for a VERTICAL A4 printed poster for Cotton Leaf, Italian bespoke shirts, men and women in Rome. Supporting reference 1 is the brand's real fabrics, reference 2 its fabric book: borrow textile palette and tactile detail. Brand palette wine #672a38, cream #f6f2e9, sky blue, sage. Luxury yet approachable, beautifully controlled real cotton texture, no artificial silk shine, premium editorial studio photography. Landscape 4:3 photographic panel, it will be placed inside a vertical printed poster. No lettering, text, QR, watermark, brand labels, phone, screen UI, typography, framing or poster mockup. Concept: The perfect collar. An exquisite close-up of a pristine ivory cotton shirt collar, opened naturally with mother-of-pearl buttons; another pale blue striped folded shirt beside it and subtle sage swatches beneath. Sculptural folds, warm cream backdrop, precise fabric weave, luminous raking daylight. Sophisticated eye-level macro composition, immaculate sartorial details filling the photograph with few elements, wine thread spool small discreet accent in lower right."
+    },
+    {
+      "id": "roma",
+      "prompt": "Use case: ads-marketing. Create the final photographic art panel for a VERTICAL A4 printed poster for Cotton Leaf, Italian bespoke shirts, men and women in Rome. Supporting reference 1 is the brand's real fabrics, reference 2 its fabric book: borrow textile palette and tactile detail. Brand palette wine #672a38, cream #f6f2e9, sky blue, sage. Luxury yet approachable, beautifully controlled real cotton texture, no artificial silk shine, premium editorial studio photography. Landscape 4:3 photographic panel, it will be placed inside a vertical printed poster. No lettering, text, QR, watermark, brand labels, phone, screen UI, typography, framing or poster mockup. Concept: The tailor comes to your office. Realistic beautiful walnut desk in a stylish sunlit modern Roman office, clean warm cream walls, an open elegant shirting swatch book prominently in foreground, soft blue-white stripes, pale sage, ivory and tiny checks. Nearby folded white shirt and curled ivory measuring tape. The cropped forearms of two adults naturally comparing two cotton swatches on the desk, one white shirt cuff and one muted wine cuff, no visible faces or bodies. Quiet sophisticated personal service, tactile fabrics inviting touch, warm Mediterranean light, elegant magazine art direction."
+    },
+    {
+      "id": "materia",
+      "prompt": "Use case: ads-marketing. Create the final photographic art panel for a VERTICAL A4 printed poster for Cotton Leaf, Italian bespoke shirts, men and women in Rome. Supporting reference 1 is the brand's real fabrics, reference 2 its fabric book: borrow textile palette and tactile detail. Brand palette wine #672a38, cream #f6f2e9, sky blue, sage. Luxury yet approachable, beautifully controlled real cotton texture, no artificial silk shine, premium editorial studio photography. Landscape 4:3 photographic panel, it will be placed inside a vertical printed poster. No lettering, text, QR, watermark, brand labels, phone, screen UI, typography, framing or poster mockup. Concept: A graphic sculptural landscape made from real shirting cotton. On a matte deep burgundy wine backdrop, precise overlapping zigzag-edged fabric swatches form a dramatic diagonal cascade: crisp ivory, sky blue, blue pinstripe, tiny blue gingham and pale sage. One large striped sample arches gracefully forward with natural cotton stiffness, creating compelling depth and cast shadow. Sophisticated art-directed still-life, crisp detailed weave, dramatic softbox lighting, contemporary luxury visual, harmonious not chaotic, large shapes and strong contrast, fill the image."
+    }
+  ]
+}

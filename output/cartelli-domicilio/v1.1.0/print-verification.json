@@ -1,0 +1,22 @@
+{
+  "date": "2026-11-26",
+  "format": "A4 portrait",
+  "pages": 3,
+  "destination": "https://cottonleaf.it/",
+  "siteHttpStatus": 200,
+  "qrVerification": "Poppler render at 1600px, OpenCV decode",
+  "results": [
+    {
+      "page": "print-1.png",
+      "passed": true
+    },
+    {
+      "page": "print-2.png",
+      "passed": true
+    },
+    {
+      "page": "print-3.png",
+      "passed": true
+    }
+  ]
+}

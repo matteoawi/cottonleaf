@@ -1,0 +1,65 @@
+[
+  {
+    "file": "cartello-1-atelier-A4-300dpi.png",
+    "width": 2480,
+    "height": 3508,
+    "decoded": "https://cottonleaf.it/",
+    "passed": true
+  },
+  {
+    "file": "cartello-1-atelier-A4-300dpi.png",
+    "width": 794,
+    "height": 1123,
+    "decoded": "https://cottonleaf.it/",
+    "passed": true
+  },
+  {
+    "file": "cartello-2-roma-A4-300dpi.png",
+    "width": 2480,
+    "height": 3508,
+    "decoded": "https://cottonleaf.it/",
+    "passed": true
+  },
+  {
+    "file": "cartello-2-roma-A4-300dpi.png",
+    "width": 794,
+    "height": 1123,
+    "decoded": "https://cottonleaf.it/",
+    "passed": true
+  },
+  {
+    "file": "cartello-3-materia-A4-300dpi.png",
+    "width": 2480,
+    "height": 3508,
+    "decoded": "https://cottonleaf.it/",
+    "passed": true
+  },
+  {
+    "file": "cartello-3-materia-A4-300dpi.png",
+    "width": 794,
+    "height": 1123,
+    "decoded": "https://cottonleaf.it/",
+    "passed": true
+  },
+  {
+    "file": "anteprima-1-atelier.png",
+    "width": 715,
+    "height": 1011,
+    "decoded": "https://cottonleaf.it/",
+    "passed": true
+  },
+  {
+    "file": "anteprima-2-roma.png",
+    "width": 715,
+    "height": 1011,
+    "decoded": "https://cottonleaf.it/",
+    "passed": true
+  },
+  {
+    "file": "anteprima-3-materia.png",
+    "width": 715,
+    "height": 1011,
+    "decoded": "https://cottonleaf.it/",
+    "passed": true
+  }
+]
