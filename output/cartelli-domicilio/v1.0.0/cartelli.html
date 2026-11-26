@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="it">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Cotton Leaf | Cartelli visita a domicilio | 1.0.0</title>
+<style>
+@font-face{font-family:DM;src:url('../../../assets/dm-sans-latin.woff2') format('woff2');font-weight:100 1000;font-display:block}
+*{box-sizing:border-box}html,body{margin:0;padding:0}body{background:#e5ded3;font-family:DM,Arial,sans-serif;color:#28231f;-webkit-print-color-adjust:exact;print-color-adjust:exact}
+.poster{position:relative;width:794px;height:1123px;margin:30px auto;overflow:hidden;background:#f6f2e9;isolation:isolate}
+.brand{position:absolute;top:38px;left:46px;display:flex;align-items:center;gap:14px}.brand img{width:46px;height:46px}.wordmark{font-size:29px;font-weight:650;letter-spacing:-1px;line-height:1.05}.wordmark small{display:block;font-size:10px;font-weight:550;letter-spacing:3.3px;margin-top:7px;text-transform:uppercase}.edition{position:absolute;right:48px;top:48px;font-size:10px;letter-spacing:1.5px;line-height:1.6;text-align:right;text-transform:uppercase}
+.eyebrow{position:absolute;top:121px;left:48px;margin:0;font-size:12px;letter-spacing:2.3px;font-weight:700;color:#672a38;text-transform:uppercase}
+h1{position:absolute;top:148px;left:44px;margin:0;font-size:64px;line-height:.99;font-weight:650;letter-spacing:-3.6px}h1 span{color:#672a38}.dek{position:absolute;top:292px;left:48px;margin:0;font-size:19px;line-height:1.4;font-weight:450;letter-spacing:-.3px}.art{position:absolute;left:0;top:364px;width:794px;height:320px;object-fit:cover;object-position:50% 48%}
+.service{position:absolute;top:684px;left:0;width:100%;height:48px;background:#672a38;color:#fffaf1;display:flex;justify-content:center;align-items:center;font-size:14px;font-weight:600;letter-spacing:.1px}.service b{margin:0 10px;opacity:.5}
+.qr{position:absolute;left:47px;top:758px;width:212px;height:212px;background:#fff;display:block;image-rendering:pixelated}
+.cta{position:absolute;top:761px;left:290px;width:450px}.label{margin:0 0 11px;font-size:12px;font-weight:750;letter-spacing:1.8px;text-transform:uppercase}.cta h2{font-size:31px;line-height:1.08;letter-spacing:-1px;font-weight:650;margin:0 0 12px}.cta p{font-size:15px;line-height:1.45;margin:0}.phone{display:block;font-weight:700;font-size:23px;letter-spacing:-.7px;margin:10px 0 3px}.site{font-size:13px;font-weight:600}
+.footer{position:absolute;top:1002px;left:48px;right:48px;padding-top:14px;border-top:1px solid #cbbeb0;font-size:11.5px;line-height:1.55}.footer strong{font-weight:700}.logistics{font-size:12px;font-weight:550;margin-bottom:8px}.locations{display:flex;justify-content:space-between;gap:10px}.locations span:last-child{text-align:right}
+.dark{background:#672a38;color:#fffaf1}.dark .eyebrow{color:#e2c7b4}.dark h1{top:151px;font-size:58px;letter-spacing:-3.1px;line-height:1.01}.dark h1 span{color:#e8d5c2}.dark .dek{top:289px;color:#f2e5d7;font-size:18px}.dark .art{top:343px;height:354px;object-position:50% 54%}.dark .service{top:697px;background:#f6f2e9;color:#672a38;height:43px}.dark .qr{left:535px;top:772px;width:211px;height:211px}.dark .cta{left:48px;top:774px;width:450px}.dark .cta h2{font-size:32px}.dark .label{color:#e8d5c2}.dark .footer{border-color:#b0878f}.dark .price{font-weight:650;font-size:22px;margin:10px 0 0;letter-spacing:-.6px}
+.photo h1{font-size:63px;top:150px}.photo .dek{top:292px}.photo .art{left:46px;top:354px;width:702px;height:360px;object-position:center 54%;border-radius:2px}.photo .service{top:714px;left:46px;width:702px;height:43px;font-size:13px}.photo .qr{top:786px;left:539px;width:207px;height:207px}.photo .cta{top:783px;left:48px;width:460px}.photo .cta h2{font-size:32px}.photo .phone{margin-top:13px}.photo .footer{top:1013px}
+.qr{width:228px;height:228px}.dark .qr{left:518px;top:760px;width:228px;height:228px}.photo .qr{left:518px;top:774px;width:228px;height:228px}
+@page{size:A4 portrait;margin:0}@media print{html,body{width:210mm;background:none}.poster{width:210mm;height:297mm;margin:0;break-after:page;page-break-after:always}.poster:last-child{break-after:auto;page-break-after:auto}}
+</style>
+<main>
+<section class="poster" id="editoriale" aria-label="Cartello 1, editoriale">
+  <div class="brand"><img src="../../../assets/cotton-leaf.svg" alt=""><div class="wordmark">Cotton Leaf<small>Roma · Camiceria su misura</small></div></div>
+  <div class="edition">Il servizio su misura<br>viene da te</div>
+  <p class="eyebrow">A casa · In ufficio · In hotel</p>
+  <h1>Il su misura,<br><span>dove vuoi tu.</span></h1>
+  <p class="dek">Portiamo il campionario e prendiamo le tue misure.<br>Camicie per uomo e donna <strong>a partire da 55 €.</strong></p>
+  <img class="art" src="arte-editoriale.png" alt="Campioni di cotone e metro da sarto su fondo avorio">
+  <div class="service">Presa misure e scelta tessuti <b>·</b> Visita gratuita a Roma</div>
+  <img class="qr" src="qr-whatsapp.png" alt="QR per prenotare su WhatsApp">
+  <div class="cta"><div class="label">Inquadra e prenota su WhatsApp</div><h2>Tu scegli il luogo.<br>Al resto pensiamo noi.</h2><p>Concordiamo insieme l’appuntamento.<br>Preferisci chiamare?</p><span class="phone">+39 345 235 7524</span><span class="site">cottonleaf.it</span></div>
+  <footer class="footer"><div class="logistics">Ritiro gratuito in negozio · Consegna a domicilio 10 €</div><div class="locations"><span><strong>Ti aspettiamo anche in negozio a Roma</strong><br>Via Nomentana, 153 · Via Venti Settembre, 58D</span><span>Misure e scelta tessuti<br>anche nei nostri punti vendita</span></div></footer>
+</section>
+<section class="poster dark" id="sartoriale" aria-label="Cartello 2, sartoriale bordeaux">
+  <div class="brand"><img src="../../../assets/cotton-leaf.svg" alt=""><div class="wordmark">Cotton Leaf<small>Roma · Camiceria su misura</small></div></div>
+  <div class="edition">A casa · In ufficio<br>In hotel</div>
+  <p class="eyebrow">Il tuo appuntamento su misura, a Roma</p>
+  <h1>La tua prossima camicia.<br><span>Veniamo noi da te.</span></h1>
+  <p class="dek">Presa delle misure e scelta dei tessuti, dove preferisci.<br>Camicie su misura per uomo e donna.</p>
+  <img class="art" src="arte-sartoriale.png" alt="Camicia bianca e tessuti su fondo bordeaux">
+  <div class="service">La visita a domicilio a Roma è gratuita</div>
+  <div class="cta"><div class="label">Inquadra il QR e prenota su WhatsApp</div><h2>Il campionario arriva.<br>Il tuo stile prende forma.</h2><p class="price">Camicie a partire da 55 €</p><span class="phone">+39 345 235 7524</span><span class="site">cottonleaf.it</span></div>
+  <img class="qr" src="qr-whatsapp.png" alt="QR per prenotare su WhatsApp">
+  <footer class="footer"><div class="logistics">Ritiro gratuito in negozio · Consegna a domicilio 10 €</div><div class="locations"><span><strong>Cotton Leaf · Roma</strong><br>Via Nomentana, 153 · Via Venti Settembre, 58D</span><span>Misure e scelta tessuti<br>anche in negozio</span></div></footer>
+</section>
+<section class="poster photo" id="domicilio" aria-label="Cartello 3, visita a domicilio">
+  <div class="brand"><img src="../../../assets/cotton-leaf.svg" alt=""><div class="wordmark">Cotton Leaf<small>Roma · Camiceria su misura</small></div></div>
+  <div class="edition">Su appuntamento<br>A Roma</div>
+  <p class="eyebrow">Il servizio che si adatta ai tuoi impegni</p>
+  <h1>Il tuo tempo.<br><span>La tua camicia.</span></h1>
+  <p class="dek">Prendiamo le misure. Scegli i tessuti.<br><strong>A casa, in ufficio o in hotel.</strong> La visita a Roma è gratuita.</p>
+  <img class="art" src="arte-domicilio.png" alt="Campionario e presa delle misure durante una visita a casa">
+  <div class="service">Camicie su misura per uomo e donna · A partire da 55 €</div>
+  <div class="cta"><div class="label">Inquadra e prenota su WhatsApp</div><h2>Portiamo il su misura<br>nella tua giornata.</h2><p>Concorda con noi luogo e appuntamento.</p><span class="phone">+39 345 235 7524</span><span class="site">cottonleaf.it</span></div>
+  <img class="qr" src="qr-whatsapp.png" alt="QR per prenotare su WhatsApp">
+  <footer class="footer"><div class="logistics">Ritiro gratuito in negozio · Consegna a domicilio 10 €</div><div class="locations"><span><strong>Misure e scelta tessuti anche nei nostri negozi a Roma</strong><br>Via Nomentana, 153 · Via Venti Settembre, 58D</span><span>Vieni a trovarci.<br>Oppure veniamo noi.</span></div></footer>
+</section>
+</main>
+</html>

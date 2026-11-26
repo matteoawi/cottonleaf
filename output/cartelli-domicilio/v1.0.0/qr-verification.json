@@ -1,0 +1,65 @@
+[
+  {
+    "file": "cartello-1-editoriale-A4-300dpi.png",
+    "width": 2480,
+    "height": 3508,
+    "decoded": "https://wa.me/393452357524?text=Ciao+Cotton+Leaf%2C+vorrei+prenotare+una+visita+gratuita+a+domicilio+a+Roma.",
+    "passed": true
+  },
+  {
+    "file": "cartello-1-editoriale-A4-300dpi.png",
+    "width": 794,
+    "height": 1123,
+    "decoded": "https://wa.me/393452357524?text=Ciao+Cotton+Leaf%2C+vorrei+prenotare+una+visita+gratuita+a+domicilio+a+Roma.",
+    "passed": true
+  },
+  {
+    "file": "cartello-2-sartoriale-A4-300dpi.png",
+    "width": 2480,
+    "height": 3508,
+    "decoded": "https://wa.me/393452357524?text=Ciao+Cotton+Leaf%2C+vorrei+prenotare+una+visita+gratuita+a+domicilio+a+Roma.",
+    "passed": true
+  },
+  {
+    "file": "cartello-2-sartoriale-A4-300dpi.png",
+    "width": 794,
+    "height": 1123,
+    "decoded": "https://wa.me/393452357524?text=Ciao+Cotton+Leaf%2C+vorrei+prenotare+una+visita+gratuita+a+domicilio+a+Roma.",
+    "passed": true
+  },
+  {
+    "file": "cartello-3-domicilio-A4-300dpi.png",
+    "width": 2480,
+    "height": 3508,
+    "decoded": "https://wa.me/393452357524?text=Ciao+Cotton+Leaf%2C+vorrei+prenotare+una+visita+gratuita+a+domicilio+a+Roma.",
+    "passed": true
+  },
+  {
+    "file": "cartello-3-domicilio-A4-300dpi.png",
+    "width": 794,
+    "height": 1123,
+    "decoded": "https://wa.me/393452357524?text=Ciao+Cotton+Leaf%2C+vorrei+prenotare+una+visita+gratuita+a+domicilio+a+Roma.",
+    "passed": true
+  },
+  {
+    "file": "anteprima-1-editoriale.png",
+    "width": 715,
+    "height": 1011,
+    "decoded": "https://wa.me/393452357524?text=Ciao+Cotton+Leaf%2C+vorrei+prenotare+una+visita+gratuita+a+domicilio+a+Roma.",
+    "passed": true
+  },
+  {
+    "file": "anteprima-2-sartoriale.png",
+    "width": 715,
+    "height": 1011,
+    "decoded": "https://wa.me/393452357524?text=Ciao+Cotton+Leaf%2C+vorrei+prenotare+una+visita+gratuita+a+domicilio+a+Roma.",
+    "passed": true
+  },
+  {
+    "file": "anteprima-3-domicilio.png",
+    "width": 715,
+    "height": 1011,
+    "decoded": "https://wa.me/393452357524?text=Ciao+Cotton+Leaf%2C+vorrei+prenotare+una+visita+gratuita+a+domicilio+a+Roma.",
+    "passed": true
+  }
+]

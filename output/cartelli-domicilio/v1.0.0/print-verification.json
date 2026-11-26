@@ -1,0 +1,11 @@
+{
+  "date": "2026-11-26",
+  "pdf": "cotton-leaf-tre-cartelli-A4.pdf",
+  "pages": 3,
+  "pageFormat": "A4 portrait",
+  "qrCheck": "Each PDF page rendered with Poppler at long edge 1600px and decoded with OpenCV against qr-destination.json",
+  "pagesPassed": [1, 2, 3],
+  "destinationHttpStatus": 302,
+  "destinationRedirectHost": "api.whatsapp.com",
+  "destinationRedirectPhone": "393452357524"
+}

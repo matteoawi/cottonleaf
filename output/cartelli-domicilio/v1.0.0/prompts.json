@@ -1,0 +1,23 @@
+{
+  "tool": "image_gen built-in",
+  "version": "1.0.0",
+  "date": "2026-11-26",
+  "referenceImages": [
+    "assets/cotton-leaf-tessuti-765.webp",
+    "assets/campionario-tessuti-960.webp"
+  ],
+  "concepts": [
+    {
+      "key": "editoriale",
+      "prompt": "Create a beautiful photographic art asset for an Italian bespoke shirting brand Cotton Leaf, for a sophisticated in-store print advertising poster. Reference image 1 is the brand's real fabric selection photo, reference image 2 its current fabric swatch book: use these for textile palette and tactile sartorial subject, do not copy any Rome monuments. Landscape 4:3 image, exquisite overhead still life on warm cream paper #f6f2e9: an elegant fan of large physical cotton shirting fabric samples, natural zigzag cut edges, sky blue poplin, white oxford, thin blue-white stripe, sage and ivory, beautiful controlled layering with a restrained burgundy #672a38 measuring tape curling gracefully across one lower corner. High-end magazine still-life photography, sun grazing woven fibers, generous sculptural composition, physically plausible fabric, gentle short shadows, impeccable clean styling, quiet luxury. Fill the image with the fabric arrangement and minimal cream breathing space around it. NO text, letters, logo, QR, people, garment labels, picture frames, poster mockup, border or watermark. This is the final photographic panel used within a larger graphic layout."
+    },
+    {
+      "key": "sartoriale",
+      "prompt": "Create a spectacular luxury advertising photograph art asset for Cotton Leaf bespoke cotton shirts, an Italian brand whose palette is deep wine #672a38 and warm ivory #f6f2e9. Supporting reference images show the brand's shirting fabrics and swatch book, use textile types and colors only. Landscape 4:3 image. A single exquisitely tailored ivory cotton shirt partly folded in a sculptural elegant curve, precise collar and mother of pearl buttons, resting on a rich matte burgundy backdrop; beneath it a flowing fan of beautiful fine light-blue striped cotton, pale sage fabric, crisp white and tiny blue check cotton samples, plus a tasteful loop of natural ivory tailor's measuring tape. Dramatic directional studio lighting, rich deep wine shadows, palpable detailed cotton weave, premium Italian fashion campaign, close editorial still life, restrained and breathtaking, real materials not plastic or glossy silk. Asymmetric balanced art direction, ivory shirt upper right, textile samples sweep toward lower left. NO text, letters, QR, logo, people, hands, storefront, frame, poster mockup, watermark. This is a photographic art panel for a designed printed poster."
+    },
+    {
+      "key": "domicilio",
+      "prompt": "Create a genuinely warm and stylish editorial advertising photograph for Cotton Leaf's bespoke shirt fitting service at home in Rome. Supporting reference images show its cotton fabrics and swatch book. Landscape 4:3 composition. A beautiful real-feeling sunlit modern Roman apartment interior, subtle tall window, beige walls, walnut table, no landmarks or ostentation. In the immediate foreground on the table is an open elegant physical book filled with many real shirting fabric swatches in pale blue, ivory, fine stripes, small checks and sage; beside it one impeccable neatly folded white cotton shirt and an ivory tailor's measuring tape. In soft background on the right, a tailor's hands take a shoulder measurement of a fully dressed adult client wearing a pale blue shirt; crop faces outside frame, respectful natural posture, authentic service moment, focus is mainly sharp tactile sample book and folded shirt, fitting secondary. Warm natural daylight, elegant realistic high-end Italian lifestyle photograph, understated burgundy accent on book cover #672a38, cream neutral interior #f6f2e9. NO text, typography, brand labels, QR, logos, poster mockup, framing, watermark. The art is a photographic panel to be placed in a larger print layout."
+    }
+  ]
+}
